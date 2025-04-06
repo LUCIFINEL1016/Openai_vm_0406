@@ -1,0 +1,149 @@
+import requests
+import json
+import time
+import datetime
+from newsapi import NewsApiClient
+
+# Set API parameters
+API_KEY = "your_api_key"
+USERNAME = "your_username"
+PASSWORD = "your_password"
+ACCOUNT_ID = "your_account_id"
+PRODUCT_EPIC = "CS.D.CFDGOLD.CFDGC.IP"  # Set the product you want to trade (e.g., GOLD)
+
+# IG API Login
+def login_ig(api_key, username, password):
+    url = "https://api.ig.com/gateway/deal/session"
+    headers = {
+        "X-IG-API-KEY": api_key,
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+    }
+    payload = {
+        "identifier": username,
+        "password": password
+    }
+
+    response = requests.post(url, headers=headers, json=payload)
+
+    if response.status_code == 200:
+        cst = response.headers.get("CST")
+        x_token = response.headers.get("X-SECURITY-TOKEN")
+        print("Login successful!")
+        return cst, x_token
+    else:
+        print("Login failed:", response.status_code, response.text)
+        return None, None
+
+# Check API Key validity
+def check_api_validity():
+    cst, x_token = login_ig(API_KEY, USERNAME, PASSWORD)
+    if cst and x_token:
+        return True
+    else:
+        return False
+
+# Get market news
+def get_market_news():
+    newsapi = NewsApiClient(api_key='your_news_api_key')
+    top_headlines = newsapi.get_top_headlines(language='en', category='business')
+    headlines = []
+    for article in top_headlines['articles']:
+        headlines.append(article['title'])
+    return headlines
+
+# Calculate dynamic position size (example with volatility)
+def calculate_dynamic_position_size():
+    volatility = 0.02  # Assume market volatility is 2%
+    account_balance = 10000  # Assume account balance is 10,000 USD
+    position_size = account_balance * volatility
+    return position_size
+
+# Set stop loss and take profit
+def set_stop_loss_and_take_profit(stop_loss=10, take_profit=20):
+    print(f"Stop loss set to: {stop_loss}, Take profit set to: {take_profit}")
+
+# Place order
+def place_order(api_key, cst, x_token, product_epic, account_id):
+    url = "https://api.ig.com/gateway/deal/positions/otc"
+    headers = {
+        "X-IG-API-KEY": api_key,
+        "CST": cst,
+        "X-SECURITY-TOKEN": x_token,
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+    }
+
+    payload = {
+        "epic": product_epic,
+        "expiry": "-",
+        "direction": "BUY",  # Or "SELL" depending on your need
+        "size": calculate_dynamic_position_size(),  # Use dynamic position size
+        "orderType": "MARKET",
+        "currencyCode": "USD",
+        "accountId": account_id
+    }
+
+    response = requests.post(url, headers=headers, json=payload)
+
+    if response.status_code == 200:
+        data = response.json()
+        deal_ref = data.get("dealReference", "")
+        print(f"Order placed successfully! Order reference: {deal_ref}")
+        return deal_ref
+    else:
+        print(f"Order failed, HTTP status code: {response.status_code}. Details: {response.text}")
+        return None
+
+# Check if it's weekend or holiday
+def is_weekend_or_holiday():
+    today = datetime.datetime.now()
+    if today.weekday() >= 5:  # 0-4 are Monday to Friday, 5-6 are weekend
+        print("Today is weekend, skipping trade")
+        return True
+    # You can add holiday check here (e.g., via API to check if it's a holiday)
+    return False
+
+# Set daily order scheduling
+def schedule_daily_order():
+    current_time = time.strftime("%H:%M:%S")
+    target_time = "06:00:00"  # Set the target time to 6 AM
+    if current_time < target_time:
+        print(f"System will place order by {target_time}")
+        return True
+    else:
+        print(f"6 AM has passed, please check trading status")
+        return False
+
+# Check daily profit goal
+def check_daily_profit():
+    # Assume you have a function to get daily profit
+    daily_profit = 1500  # Example, should be fetched from actual data
+    if daily_profit >= 1000:
+        print("Profit goal reached!")
+    else:
+        print(f"Current daily profit: {daily_profit}, still need to reach the target")
+
+# Manage daily trading
+def manage_daily_trading(api_key, cst, x_token):
+    if not is_weekend_or_holiday():
+        schedule_daily_order()
+        place_order(api_key, cst, x_token, PRODUCT_EPIC, ACCOUNT_ID)
+        set_stop_loss_and_take_profit(stop_loss=10, take_profit=20)  # Set stop loss and take profit
+
+# Check if the API key is expired
+def check_api_key_expiry(api_key):
+    expiry_date = 1681428000  # Assume expiry time
+    current_time = time.time()
+
+    if current_time > expiry_date:
+        print("API Key is expiring soon, please update it")
+    else:
+        print("API Key is valid")
+
+# Main execution program
+if __name__ == "__main__":
+    cst, x_token = login_ig(API_KEY, USERNAME, PASSWORD)
+    if cst and x_token:
+        manage_daily_trading(API_KEY, cst, x_token)
+        check_api_key_expiry(API_KEY)  # Check API key expiry

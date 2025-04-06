@@ -1,0 +1,30 @@
+2025-04-06 06:00:01,714 - Login successful
+2025-04-06 06:00:01,714 - Target profit reached: 1200 HKD
+2025-04-06 06:00:01,714 - Market is bullish. Consider adding to the position.
+2025-04-06 06:00:01,816 - Login successful
+2025-04-06 06:00:01,816 - Target profit reached: 1200 HKD
+2025-04-06 06:00:01,816 - Market is bullish. Consider adding to the position.
+2025-04-06 06:00:02,174 - Order failed for CS.D.CFDGOLD.CFDGC.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:00:02,188 - Order failed for CS.D.CFDGOLD.CFDGC.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:00:02,460 - Order failed for CS.D.NATGAS.CFD.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:00:02,983 - Order failed for CS.D.NATGAS.CFD.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:00:03,268 - Order failed for IX.D.NASDAQ.IFD.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:00:03,749 - Order failed for IX.D.NASDAQ.IFD.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:38:20,787 - Login successful
+2025-04-06 06:38:20,787 - Target profit reached: 1200 HKD
+2025-04-06 06:38:20,788 - Market is bullish. Consider adding to the position.
+2025-04-06 06:38:21,298 - Order failed for CS.D.CFDGOLD.CFDGC.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:38:22,064 - Order failed for CS.D.NATGAS.CFD.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:38:22,435 - Order failed for IX.D.NASDAQ.IFD.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:46:14,232 - Login successful
+2025-04-06 06:46:14,233 - Target profit reached: 1200 HKD
+2025-04-06 06:46:14,233 - Market is bullish. Consider adding to the position.
+2025-04-06 06:46:14,539 - Order failed for CS.D.CFDGOLD.CFDGC.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:46:14,852 - Order failed for CS.D.NATGAS.CFD.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:46:15,687 - Order failed for IX.D.NASDAQ.IFD.IP: {"errorCode":"validation.null-not-allowed.request.guaranteedStop"}
+2025-04-06 06:51:22,886 - Login successful
+2025-04-06 06:51:22,886 - Target profit reached: 1200 HKD
+2025-04-06 06:51:22,887 - Market is bullish. Consider adding to the position.
+2025-04-06 06:51:23,186 - Order failed for CS.D.CFDGOLD.CFDGC.IP: {"errorCode":"validation.null-not-allowed.request.expiry"}
+2025-04-06 06:51:23,958 - Order failed for CS.D.NATGAS.CFD.IP: {"errorCode":"validation.null-not-allowed.request.expiry"}
+2025-04-06 06:51:24,786 - Order failed for IX.D.NASDAQ.IFD.IP: {"errorCode":"validation.null-not-allowed.request.expiry"}

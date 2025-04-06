@@ -1,0 +1,17 @@
+# ✅ Core Dependencies
+openai==1.2.3
+requests==2.31.0
+pandas==2.0.3
+yfinance==0.2.31
+python-dotenv==1.0.0
+
+# ✅ Trading API Dependencies
+binance-connector==3.1.0
+git+https://github.com/willthames/ig-markets-api-python-library.git
+alpha_vantage==2.3.1
+
+# ✅ Additional Tools
+pytest==7.4.3
+matplotlib==3.7.2
+
+binance-connector

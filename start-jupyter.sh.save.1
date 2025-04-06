@@ -1,0 +1,5 @@
+#!/bin/bash
+
+exec jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root > jupyter.log 2>&1 &
+
+echo "✅ Jupyter Lab 已啟動，log 記錄在 jupyter.log 中。"
