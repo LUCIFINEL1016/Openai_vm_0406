@@ -1,0 +1,36 @@
+# Ignore Jupyter runtime files
+.local/share/jupyter/runtime/
+
+# Ignore Nano temporary files
+.local/share/nano/
+# Ignore pip cache
+.cache/
+# Ignore Google Cloud SDK config
+.config/
+# Ignore environment variable files
+.env
+.env*
+# Ignore Jupyter related files
+.local/share/jupyter/*
+# Ignore Python history files
+.python_history
+# Ignore sensitive keys and config files
+config/auto_ai_key
+.env
+config/auto_ai_key
+.local
+.python_history
+.cache
+.config
+notebook_secret
+.env
+config/auto_ai_key
+.local
+.python_history
+.cache
+.config
+notebook_secret
+*.swp
+*.save
+*.log
+*.zip
