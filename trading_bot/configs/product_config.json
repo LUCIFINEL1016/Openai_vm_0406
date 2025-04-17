@@ -1,0 +1,24 @@
+{
+  "sim": [
+    { "name": "黃金", "epic": "CS.D.GOLD.CASH.IP", "type": "major" },
+    { "name": "白銀", "epic": "CS.D.SILVER.CASH.IP", "type": "major" },
+    { "name": "布蘭特原油", "epic": "CS.D.BRENT.CASH.IP", "type": "major" },
+    { "name": "天然氣", "epic": "CS.D.NATGAS.CASH.IP", "type": "major" },
+    { "name": "高級銅", "epic": "CS.D.COPPER.CASH.IP", "type": "major" },
+    { "name": "可可", "epic": "CS.D.COCOA.CASH.IP", "type": "major" },
+    { "name": "咖啡", "epic": "CS.D.COFFEE.CASH.IP", "type": "major" },
+    { "name": "白糖", "epic": "CS.D.SUGAR.CASH.IP", "type": "major" }
+  ],
+  "live": [
+    { "name": "GOLD MINI", "epic": "CS.D.GOLD.MINI.IP", "type": "mini" },
+    { "name": "SILVER MINI", "epic": "CS.D.SILVER.MINI.IP", "type": "mini" },
+    { "name": "GBPUSD MINI", "epic": "CS.D.GBPUSD.MINI.IP", "type": "mini" },
+    { "name": "EURUSD MINI", "epic": "CS.D.EURUSD.MINI.IP", "type": "mini" },
+    { "name": "USDJPY MINI", "epic": "CS.D.USDJPY.MINI.IP", "type": "mini" },
+    { "name": "USDCHF MINI", "epic": "CS.D.USDCHF.MINI.IP", "type": "mini" }
+  ],
+  "custom": [
+    { "name": "日經225", "epic": "CS.D.JPN225.CASH.IP", "type": "index" },
+    { "name": "納指", "epic": "CS.D.NASDAQ.CASH.IP", "type": "index" }
+  ]
+}

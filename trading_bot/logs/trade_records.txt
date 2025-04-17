@@ -1,0 +1,2 @@
+[2025-04-14 14:37:15] ✅ 交易完成：EURUSD | SELL | 結果: manual test
+[2025-04-14 14:37:48] ✅ 交易完成：XAU | BUY | 結果: manual success

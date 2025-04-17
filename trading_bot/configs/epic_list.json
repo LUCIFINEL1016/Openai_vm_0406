@@ -1,0 +1,12 @@
+[
+  {"name": "黃金", "epic": "CS.D.GOLD.CASH.IP"},
+  {"name": "白銀", "epic": "CS.D.SILVER.CASH.IP"},
+  {"name": "布蘭特原油", "epic": "CS.D.BRENT.CASH.IP"},
+  {"name": "天然氣", "epic": "CS.D.NATGAS.CASH.IP"},
+  {"name": "高級銅", "epic": "CS.D.COPPER.CASH.IP"},
+  {"name": "大豆", "epic": "CS.D.SOYBEAN.CASH.IP"},
+  {"name": "阿拉比卡咖啡", "epic": "CS.D.COFFEE.CASH.IP"},
+  {"name": "可可", "epic": "CS.D.COCOA.CASH.IP"},
+  {"name": "紐約棉花", "epic": "CS.D.COTTON.CASH.IP"},
+  {"name": "白糖", "epic": "CS.D.SUGAR.CASH.IP"}
+]

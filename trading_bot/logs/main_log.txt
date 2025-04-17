@@ -1,0 +1,904 @@
+2025-04-15 14:45:02,988 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 14:45:03,351 - INFO - ✅ IG 登入成功
+2025-04-15 14:45:03,351 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 14:45:03,351 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 14:45:03,351 - INFO - 📊 策略回傳結果：{}
+2025-04-15 14:45:03,351 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 14:45:09,315 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1445.zip
+2025-04-15 14:45:09,316 - INFO - 📦 自動備份完成
+2025-04-15 14:56:26,114 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 14:56:26,469 - INFO - ✅ IG 登入成功
+2025-04-15 14:56:26,469 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 14:56:26,469 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 14:56:26,469 - INFO - 📊 策略回傳結果：{}
+2025-04-15 14:56:26,469 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 14:56:32,379 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1456.zip
+2025-04-15 14:56:32,380 - INFO - 📦 自動備份完成
+2025-04-15 14:59:49,799 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 14:59:50,143 - INFO - ✅ IG 登入成功
+2025-04-15 14:59:50,143 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 14:59:50,143 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 14:59:50,143 - INFO - 📊 策略回傳結果：{}
+2025-04-15 14:59:50,143 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 14:59:56,071 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1459.zip
+2025-04-15 14:59:56,072 - INFO - 📦 自動備份完成
+2025-04-15 15:04:28,586 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:04:28,933 - INFO - ✅ IG 登入成功
+2025-04-15 15:04:28,933 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:04:28,933 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:04:28,933 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:04:28,933 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:04:34,879 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1504.zip
+2025-04-15 15:04:34,880 - INFO - 📦 自動備份完成
+2025-04-15 15:08:07,537 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:08:07,882 - INFO - ✅ IG 登入成功
+2025-04-15 15:08:07,882 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:08:07,882 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:08:07,882 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:08:07,882 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:08:13,810 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1508.zip
+2025-04-15 15:08:13,812 - INFO - 📦 自動備份完成
+2025-04-15 15:12:59,283 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:12:59,632 - INFO - ✅ IG 登入成功
+2025-04-15 15:12:59,632 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:12:59,632 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:12:59,632 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:12:59,632 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:13:05,575 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1512.zip
+2025-04-15 15:13:05,577 - INFO - 📦 自動備份完成
+2025-04-15 15:14:22,067 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:14:22,497 - INFO - ✅ IG 登入成功
+2025-04-15 15:14:22,497 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:14:22,497 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:14:22,497 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:14:22,497 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:14:28,426 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1514.zip
+2025-04-15 15:14:28,428 - INFO - 📦 自動備份完成
+2025-04-15 15:16:00,370 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:16:00,749 - INFO - ✅ IG 登入成功
+2025-04-15 15:16:00,749 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:16:00,750 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:16:00,750 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:16:00,750 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:16:06,697 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1516.zip
+2025-04-15 15:16:06,699 - INFO - 📦 自動備份完成
+2025-04-15 15:17:54,233 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:17:54,697 - INFO - ✅ IG 登入成功
+2025-04-15 15:17:54,697 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:17:54,697 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:17:54,697 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:17:54,697 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:18:00,631 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1517.zip
+2025-04-15 15:18:00,632 - INFO - 📦 自動備份完成
+2025-04-15 15:21:08,082 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:21:08,410 - INFO - ✅ IG 登入成功
+2025-04-15 15:21:08,410 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:21:08,411 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:21:08,411 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:21:08,412 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:21:14,339 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1521.zip
+2025-04-15 15:21:14,341 - INFO - 📦 自動備份完成
+2025-04-15 15:27:29,785 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:27:30,116 - INFO - ✅ IG 登入成功
+2025-04-15 15:27:30,116 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:27:30,116 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:27:30,116 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:27:30,116 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:27:36,066 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1527.zip
+2025-04-15 15:27:36,068 - INFO - 📦 自動備份完成
+2025-04-15 15:29:09,995 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:29:10,348 - INFO - ✅ IG 登入成功
+2025-04-15 15:29:10,348 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:29:10,348 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:29:10,348 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:29:10,348 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:29:16,283 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1529.zip
+2025-04-15 15:29:16,284 - INFO - 📦 自動備份完成
+2025-04-15 15:33:12,436 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:33:12,774 - INFO - ✅ IG 登入成功
+2025-04-15 15:33:12,774 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:33:12,774 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:33:12,774 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:33:12,774 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:33:18,685 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1533.zip
+2025-04-15 15:33:18,686 - INFO - 📦 自動備份完成
+2025-04-15 15:41:39,042 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 15:41:39,045 - INFO - 🧠 StrategyPool evaluate_all:
+    @staticmethod
+    def evaluate_all(epic, ig, logger=None):  # ← 傳入 logger
+        try:
+            prices = ig.get_price_history(epic)
+            if logger:
+                logger.info(f"[DEBUG] 正在查詢歷史價格：{epic}")
+                logger.info(f"[DEBUG] 回傳價格筆數：{len(prices)}")
+
+            gpt = StrategyPool.gpt_signal(epic, logger)
+            rsi_macd = StrategyPool.rsi_macd(prices, logger)
+            sma = StrategyPool.sma_cross(prices, logger)
+
+            result = {
+                "GPT_SIGNAL": {"direction": gpt, "confidence": 0.8},
+                "RSI_MACD": {"direction": rsi_macd, "confidence": 0.7},
+                "SMA_CROSS": {"direction": sma, "confidence": 0.6},
+            }
+
+            return result
+        except Exception as e:
+            if logger:
+                logger.error(f"❗策略池錯誤 | {e}")
+            return {}
+
+2025-04-15 15:41:39,099 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:41:39,454 - INFO - ✅ IG 登入成功
+2025-04-15 15:41:39,454 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:41:39,454 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:41:39,454 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:41:39,454 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:41:41,412 - ERROR - ❌ 備份錯誤：[Errno 28] No space left on device
+2025-04-15 15:41:41,412 - INFO - 📦 自動備份完成
+2025-04-15 15:53:28,453 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 15:53:28,457 - INFO - 🧠 StrategyPool evaluate_all:
+    @staticmethod
+    def evaluate_all(epic, ig, logger=None):  # ← 傳入 logger
+        try:
+            prices = ig.get_price_history(epic)
+            if logger:
+                logger.info(f"[DEBUG] 正在查詢歷史價格：{epic}")
+                logger.info(f"[DEBUG] 回傳價格筆數：{len(prices)}")
+
+            gpt = StrategyPool.gpt_signal(epic, logger)
+            rsi_macd = StrategyPool.rsi_macd(prices, logger)
+            sma = StrategyPool.sma_cross(prices, logger)
+
+            result = {
+                "GPT_SIGNAL": {"direction": gpt, "confidence": 0.8},
+                "RSI_MACD": {"direction": rsi_macd, "confidence": 0.7},
+                "SMA_CROSS": {"direction": sma, "confidence": 0.6},
+            }
+
+            return result
+        except Exception as e:
+            if logger:
+                logger.error(f"❗策略池錯誤 | {e}")
+            return {}
+
+2025-04-15 15:53:28,576 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:53:28,940 - INFO - ✅ IG 登入成功
+2025-04-15 15:53:28,940 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 15:53:28,940 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:53:28,940 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:53:28,940 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:53:28,940 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:53:34,933 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1553.zip
+2025-04-15 15:53:34,935 - INFO - 📦 自動備份完成
+2025-04-15 15:57:22,511 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 15:57:22,513 - INFO - 🧠 StrategyPool evaluate_all:
+    @staticmethod
+    def evaluate_all(epic, ig, logger=None):  # ← 傳入 logger
+        try:
+            prices = ig.get_price_history(epic)
+            if logger:
+                logger.info(f"[DEBUG] 正在查詢歷史價格：{epic}")
+                logger.info(f"[DEBUG] 回傳價格筆數：{len(prices)}")
+
+            gpt = StrategyPool.gpt_signal(epic, logger)
+            rsi_macd = StrategyPool.rsi_macd(prices, logger)
+            sma = StrategyPool.sma_cross(prices, logger)
+
+            result = {
+                "GPT_SIGNAL": {"direction": gpt, "confidence": 0.8},
+                "RSI_MACD": {"direction": rsi_macd, "confidence": 0.7},
+                "SMA_CROSS": {"direction": sma, "confidence": 0.6},
+            }
+
+            return result
+        except Exception as e:
+            if logger:
+                logger.error(f"❗策略池錯誤 | {e}")
+            return {}
+
+2025-04-15 15:57:22,569 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 15:57:22,904 - INFO - ✅ IG 登入成功
+2025-04-15 15:57:22,904 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 15:57:22,904 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 15:57:22,904 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 15:57:22,904 - INFO - 📊 策略回傳結果：{}
+2025-04-15 15:57:22,904 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 15:57:28,864 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1557.zip
+2025-04-15 15:57:28,866 - INFO - 📦 自動備份完成
+2025-04-15 16:01:31,811 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:09:59,499 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:09:59,501 - INFO - 🧠 StrategyPool evaluate_all:
+    @staticmethod
+    def evaluate_all(epic, ig, logger=None):
+        if logger is None:
+            logger = logging
+
+        try:
+            prices = ig.get_price_history(epic)
+            logger.info(f"[DEBUG] 正在查詢歷史價格：{epic}")
+            logger.info(f"[DEBUG] 回傳價格筆數：{len(prices)}")
+
+            gpt = StrategyPool.gpt_signal(epic, logger)
+            rsi_macd = StrategyPool.rsi_macd(prices, logger)
+            sma = StrategyPool.sma_cross(prices, logger)
+
+            result = {
+                "GPT_SIGNAL": {"direction": gpt, "confidence": 0.8},
+                "RSI_MACD": {"direction": rsi_macd, "confidence": 0.7},
+                "SMA_CROSS": {"direction": sma, "confidence": 0.6},
+            }
+
+            return result
+
+        except Exception as e:
+            logger.error(f"❗策略池錯誤 | {e}")
+            return {}
+
+2025-04-15 16:09:59,556 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:09:59,905 - INFO - ✅ IG 登入成功
+2025-04-15 16:09:59,905 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:09:59,905 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:09:59,905 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:09:59,906 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:09:59,906 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:10:05,865 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1609.zip
+2025-04-15 16:10:05,867 - INFO - 📦 自動備份完成
+2025-04-15 16:12:24,107 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:12:24,110 - INFO - 🧠 StrategyPool evaluate_all:
+    @staticmethod
+    def evaluate_all(epic, ig, logger=None):
+        if logger is None:
+            logger = logging  # ✅ fallback 解決 name 'logging' is not defined
+
+        try:
+            prices = ig.get_price_history(epic)
+            logger.info(f"[DEBUG] 正在查詢歷史價格：{epic}")
+            logger.info(f"[DEBUG] 回傳價格筆數：{len(prices)}")
+
+            gpt = StrategyPool.gpt_signal(epic, logger)
+            rsi_macd = StrategyPool.rsi_macd(prices, logger)
+            sma = StrategyPool.sma_cross(prices, logger)
+
+            result = {
+                "GPT_SIGNAL": {"direction": gpt, "confidence": 0.8},
+                "RSI_MACD": {"direction": rsi_macd, "confidence": 0.7},
+                "SMA_CROSS": {"direction": sma, "confidence": 0.6},
+            }
+
+            return result
+
+        except Exception as e:
+            logger.error(f"❗策略池錯誤 | {e}")
+            return {}
+
+2025-04-15 16:12:24,165 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:12:24,508 - INFO - ✅ IG 登入成功
+2025-04-15 16:12:24,508 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:12:24,508 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:12:24,508 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:12:24,508 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:12:24,508 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:12:30,435 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1612.zip
+2025-04-15 16:12:30,436 - INFO - 📦 自動備份完成
+2025-04-15 16:16:21,064 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:16:21,066 - INFO - 🧠 StrategyPool evaluate_all:
+    @staticmethod
+    def evaluate_all(epic, ig, logger=None):
+        if logger is None:
+            logger = logging  # ✅ fallback 對 logging 正確綁定
+
+        try:
+            prices = ig.get_price_history(epic)
+            logger.info(f"[DEBUG] 正在查詢歷史價格：{epic}")
+            logger.info(f"[DEBUG] 回傳價格筆數：{len(prices)}")
+
+            gpt = StrategyPool.gpt_signal(epic, logger)
+            rsi_macd = StrategyPool.rsi_macd(prices, logger)
+            sma = StrategyPool.sma_cross(prices, logger)
+
+            result = {
+                "GPT_SIGNAL": {"direction": gpt, "confidence": 0.8},
+                "RSI_MACD": {"direction": rsi_macd, "confidence": 0.7},
+                "SMA_CROSS": {"direction": sma, "confidence": 0.6},
+            }
+
+            return result
+
+        except Exception as e:
+            logger.error(f"❗策略池錯誤 | {e}")
+            return {}
+
+2025-04-15 16:16:21,121 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:16:21,451 - INFO - ✅ IG 登入成功
+2025-04-15 16:16:21,452 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:16:21,452 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:16:21,452 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:16:21,452 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:16:21,452 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:16:27,364 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1616.zip
+2025-04-15 16:16:27,365 - INFO - 📦 自動備份完成
+2025-04-15 16:19:31,772 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:19:31,776 - INFO - 🧠 StrategyPool evaluate_all:
+    @staticmethod
+    def evaluate_all(epic, ig, logger=None):
+        if logger is None:
+            logger = logging  # ✅ fallback 對 logging 正確綁定
+
+        try:
+            prices = ig.get_price_history(epic)
+            logger.info(f"[DEBUG] 正在查詢歷史價格：{epic}")
+            logger.info(f"[DEBUG] 回傳價格筆數：{len(prices)}")
+
+            gpt = StrategyPool.gpt_signal(epic, logger)
+            rsi_macd = StrategyPool.rsi_macd(prices, logger)
+            sma = StrategyPool.sma_cross(prices, logger)
+
+            result = {
+                "GPT_SIGNAL": {"direction": gpt, "confidence": 0.8},
+                "RSI_MACD": {"direction": rsi_macd, "confidence": 0.7},
+                "SMA_CROSS": {"direction": sma, "confidence": 0.6},
+            }
+
+            return result
+
+        except Exception as e:
+            logger.error(f"❗策略池錯誤 | {e}")
+            return {}
+
+2025-04-15 16:19:31,894 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:19:32,252 - INFO - ✅ IG 登入成功
+2025-04-15 16:19:32,252 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:19:32,252 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:19:32,252 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:19:32,252 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:19:32,252 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:19:38,238 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1619.zip
+2025-04-15 16:19:38,239 - INFO - 📦 自動備份完成
+2025-04-15 16:23:00,785 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:23:00,788 - INFO - 🧠 StrategyPool evaluate_all:
+    @staticmethod
+    def evaluate_all(epic, ig, logger=None):
+        if logger is None:
+            logger = logging  # ✅ 確保 fallback 無誤
+
+        try:
+            prices = ig.get_price_history(epic)
+            logger.info(f"[DEBUG] 正在查詢歷史價格：{epic}")
+            logger.info(f"[DEBUG] 回傳價格筆數：{len(prices)}")
+
+            gpt = StrategyPool.gpt_signal(epic, logger)
+            rsi_macd = StrategyPool.rsi_macd(prices, logger)
+            sma = StrategyPool.sma_cross(prices, logger)
+
+            result = {
+                "GPT_SIGNAL": {"direction": gpt, "confidence": 0.8},
+                "RSI_MACD": {"direction": rsi_macd, "confidence": 0.7},
+                "SMA_CROSS": {"direction": sma, "confidence": 0.6},
+            }
+
+            return result
+        except Exception as e:
+            logger.error(f"❗策略池錯誤 | {e}")
+            return {}
+
+2025-04-15 16:23:00,842 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:23:01,190 - INFO - ✅ IG 登入成功
+2025-04-15 16:23:01,190 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:23:01,190 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:23:01,190 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:23:01,190 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:23:01,190 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:23:07,127 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1623.zip
+2025-04-15 16:23:07,128 - INFO - 📦 自動備份完成
+2025-04-15 16:27:43,299 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:27:43,354 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:27:43,678 - INFO - ✅ IG 登入成功
+2025-04-15 16:27:43,678 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:27:43,678 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:27:43,678 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:27:43,678 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:27:43,678 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:27:49,596 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1627.zip
+2025-04-15 16:27:49,598 - INFO - 📦 自動備份完成
+2025-04-15 16:28:06,904 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:28:07,027 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:28:07,303 - INFO - ✅ IG 登入成功
+2025-04-15 16:28:07,303 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:28:07,303 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:28:07,303 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:28:07,304 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:28:07,304 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:28:13,231 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1628.zip
+2025-04-15 16:28:13,233 - INFO - 📦 自動備份完成
+2025-04-15 16:31:12,885 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:31:13,002 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:31:13,339 - INFO - ✅ IG 登入成功
+2025-04-15 16:31:13,339 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:31:13,339 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:31:13,339 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:31:13,339 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:31:13,339 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:31:19,274 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1631.zip
+2025-04-15 16:31:19,276 - INFO - 📦 自動備份完成
+2025-04-15 16:36:08,647 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:36:08,759 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:36:09,089 - INFO - ✅ IG 登入成功
+2025-04-15 16:36:09,089 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:36:09,090 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:36:09,090 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:36:09,090 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:36:09,090 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:36:14,465 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1636.zip
+2025-04-15 16:36:14,466 - INFO - 📦 自動備份完成
+2025-04-15 16:42:44,991 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:42:45,104 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:42:45,457 - INFO - ✅ IG 登入成功
+2025-04-15 16:42:45,457 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:42:45,457 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:42:45,457 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:42:45,457 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:42:45,457 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:42:50,831 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1642.zip
+2025-04-15 16:42:50,832 - INFO - 📦 自動備份完成
+2025-04-15 16:44:37,776 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:44:37,888 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:44:38,220 - INFO - ✅ IG 登入成功
+2025-04-15 16:44:38,220 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:44:38,220 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:44:38,220 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:44:38,220 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:44:38,220 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:44:43,761 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1644.zip
+2025-04-15 16:44:43,762 - INFO - 📦 自動備份完成
+2025-04-15 16:48:08,226 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:48:08,337 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:48:08,696 - INFO - ✅ IG 登入成功
+2025-04-15 16:48:08,696 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:48:08,697 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:48:08,697 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:48:08,697 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:48:08,697 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:48:14,065 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1648.zip
+2025-04-15 16:48:14,066 - INFO - 📦 自動備份完成
+2025-04-15 16:49:55,430 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:49:55,545 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:49:55,876 - INFO - ✅ IG 登入成功
+2025-04-15 16:49:55,876 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:49:55,876 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:49:55,876 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:49:55,876 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:49:55,876 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:50:01,262 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1649.zip
+2025-04-15 16:50:01,263 - INFO - 📦 自動備份完成
+2025-04-15 16:50:58,514 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 16:50:58,629 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 16:50:59,004 - INFO - ✅ IG 登入成功
+2025-04-15 16:50:59,004 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 16:50:59,004 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 16:50:59,004 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 16:50:59,004 - INFO - 📊 策略回傳結果：{}
+2025-04-15 16:50:59,004 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 16:51:04,377 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1650.zip
+2025-04-15 16:51:04,379 - INFO - 📦 自動備份完成
+2025-04-15 17:11:26,750 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:11:28,531 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:11:28,531 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 17:11:28,985 - INFO - ✅ IG 登入成功
+2025-04-15 17:11:28,985 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:11:28,985 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:11:28,985 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:11:28,985 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:11:28,985 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:11:34,388 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1711.zip
+2025-04-15 17:11:34,389 - INFO - 📦 自動備份完成
+2025-04-15 17:16:20,537 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:16:22,316 - INFO - 🧐 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:16:22,429 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:16:22,770 - INFO - ✅ IG 登入成功
+2025-04-15 17:16:22,770 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:16:22,770 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:16:22,770 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:16:22,770 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:16:22,770 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:16:28,136 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1716.zip
+2025-04-15 17:16:28,137 - INFO - 📦 自動備份完成
+2025-04-15 17:22:16,814 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:22:18,604 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:22:18,604 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:22:19,062 - INFO - ✅ IG 登入成功
+2025-04-15 17:22:19,062 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:22:19,062 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:22:19,062 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:22:19,062 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:22:19,062 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:22:23,059 - ERROR - ❌ 備份錯誤：[Errno 28] No space left on device
+2025-04-15 17:22:23,060 - INFO - 📦 自動備份完成
+2025-04-15 17:22:55,012 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:22:56,804 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:22:56,804 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:22:57,207 - INFO - ✅ IG 登入成功
+2025-04-15 17:22:57,207 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:22:57,207 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:22:57,207 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:22:57,207 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:22:57,207 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:23:01,303 - ERROR - ❌ 備份錯誤：[Errno 28] No space left on device
+2025-04-15 17:23:01,304 - INFO - 📦 自動備份完成
+2025-04-15 17:25:12,976 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:25:14,765 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:25:14,765 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:25:15,209 - INFO - ✅ IG 登入成功
+2025-04-15 17:25:15,209 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:25:15,209 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:25:15,209 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:25:15,209 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:25:15,209 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:25:20,621 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1725.zip
+2025-04-15 17:25:20,622 - INFO - 📦 自動備份完成
+2025-04-15 17:26:34,310 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:26:36,095 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:26:36,095 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:26:36,540 - INFO - ✅ IG 登入成功
+2025-04-15 17:26:36,540 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:26:36,540 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:26:36,540 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:26:36,540 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:26:36,540 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:26:41,925 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1726.zip
+2025-04-15 17:26:41,926 - INFO - 📦 自動備份完成
+2025-04-15 17:28:22,211 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:28:24,039 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:28:24,039 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:28:24,493 - INFO - ✅ IG 登入成功
+2025-04-15 17:28:24,493 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:28:24,493 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:28:24,493 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:28:24,493 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:28:24,493 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:28:29,876 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1728.zip
+2025-04-15 17:28:29,877 - INFO - 📦 自動備份完成
+2025-04-15 17:30:13,135 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:30:14,915 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:30:14,916 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:30:15,381 - INFO - ✅ IG 登入成功
+2025-04-15 17:30:15,381 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:30:15,381 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:30:15,381 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:30:15,381 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:30:15,381 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:30:20,754 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1730.zip
+2025-04-15 17:30:20,755 - INFO - 📦 自動備份完成
+2025-04-15 17:32:52,485 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:36:14,756 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:36:16,547 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:36:16,547 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:36:17,012 - INFO - ✅ IG 登入成功
+2025-04-15 17:36:17,013 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:36:17,013 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:36:17,013 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:36:17,013 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:36:17,013 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:36:22,414 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1736.zip
+2025-04-15 17:36:22,415 - INFO - 📦 自動備份完成
+2025-04-15 17:40:13,701 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:40:15,497 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:40:15,498 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:40:15,954 - INFO - ✅ IG 登入成功
+2025-04-15 17:40:15,954 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:40:15,954 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:40:15,954 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:40:15,954 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:40:15,954 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:40:21,349 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1740.zip
+2025-04-15 17:40:21,351 - INFO - 📦 自動備份完成
+2025-04-15 17:41:27,076 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:41:28,889 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:41:28,890 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:41:29,368 - INFO - ✅ IG 登入成功
+2025-04-15 17:41:29,368 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:41:29,368 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:41:29,368 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:41:29,368 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:41:29,368 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:41:34,805 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1741.zip
+2025-04-15 17:41:34,806 - INFO - 📦 自動備份完成
+2025-04-15 17:41:56,355 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 17:41:58,140 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 17:41:58,140 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 17:41:58,525 - INFO - ✅ IG 登入成功
+2025-04-15 17:41:58,525 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 17:41:58,525 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 17:41:58,525 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 17:41:58,525 - INFO - 📊 策略回傳結果：{}
+2025-04-15 17:41:58,525 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 17:42:03,981 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1741.zip
+2025-04-15 17:42:03,982 - INFO - 📦 自動備份完成
+2025-04-15 18:10:42,158 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 18:10:43,946 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:10:43,946 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 18:10:44,402 - INFO - ✅ IG 登入成功
+2025-04-15 18:10:44,402 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:10:44,402 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 18:10:44,402 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:10:44,402 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:10:44,402 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:10:49,812 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1810.zip
+2025-04-15 18:10:49,813 - INFO - 📦 自動備份完成
+2025-04-15 18:12:12,059 - INFO - 
+🔁 啟動 Unified-Team-v2.4.4-FixLogger
+2025-04-15 18:12:13,855 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:12:13,855 - INFO - 
+📦 StrategyPool evaluate_all 來源： strategy_bundle
+2025-04-15 18:12:14,335 - INFO - ✅ IG 登入成功
+2025-04-15 18:12:14,335 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:12:14,335 - INFO - 🔍 準備進行策略評估：EPIC=CS.D.EURUSD.MINI.IP
+2025-04-15 18:12:14,335 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:12:14,335 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:12:14,335 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:12:19,708 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1812.zip
+2025-04-15 18:12:19,709 - INFO - 📦 自動備份完成
+2025-04-15 18:14:35,894 - INFO - 🔁 Unified-Team-v2.4.4 啟動
+2025-04-15 18:14:35,895 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:14:35,895 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 18:14:36,347 - INFO - ✅ IG 登入成功
+2025-04-15 18:14:36,347 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:14:36,347 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:14:36,347 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:14:36,347 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:14:41,730 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1814.zip
+2025-04-15 18:14:41,731 - INFO - 📦 自動備份完成
+2025-04-15 18:16:40,476 - INFO - 🔁 Unified-Team-v2.4.4 啟動
+2025-04-15 18:16:40,476 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:16:40,476 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 18:16:40,923 - INFO - ✅ IG 登入成功
+2025-04-15 18:16:40,923 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:16:40,923 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:16:40,923 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:16:40,923 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:16:46,317 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1816.zip
+2025-04-15 18:16:46,318 - INFO - 📦 自動備份完成
+2025-04-15 18:16:53,715 - INFO - 🔁 Unified-Team-v2.4.4 啟動
+2025-04-15 18:16:53,715 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:16:53,715 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 18:16:54,091 - INFO - ✅ IG 登入成功
+2025-04-15 18:16:54,091 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:16:54,091 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:16:54,091 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:16:54,091 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:16:59,633 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1816.zip
+2025-04-15 18:16:59,634 - INFO - 📦 自動備份完成
+2025-04-15 18:20:47,222 - INFO - 🔁 Unified-Team-v2.4.4 啟動
+2025-04-15 18:20:47,222 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:20:47,222 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 18:20:47,709 - INFO - ✅ IG 登入成功
+2025-04-15 18:20:47,709 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:20:47,709 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:20:47,709 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:20:47,709 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:20:53,088 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1820.zip
+2025-04-15 18:20:53,089 - INFO - 📦 自動備份完成
+2025-04-15 18:26:44,833 - INFO - 🔁 Unified-Team-v2.4.4 啟動
+2025-04-15 18:26:44,833 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:26:44,833 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 18:26:45,288 - INFO - ✅ IG 登入成功
+2025-04-15 18:26:45,288 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:26:45,289 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:26:45,289 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:26:45,289 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:26:50,673 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1826.zip
+2025-04-15 18:26:50,674 - INFO - 📦 自動備份完成
+2025-04-15 18:28:20,359 - INFO - 🔁 Unified-Team-v2.4.4 啟動
+2025-04-15 18:28:20,360 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:28:20,360 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 18:28:20,814 - INFO - ✅ IG 登入成功
+2025-04-15 18:28:20,814 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:28:20,814 - INFO - 🔥 DEBUG | strategy_bundle 正在執行 evaluate_all
+2025-04-15 18:28:20,814 - INFO - 🔥 DEBUG | logging 是否存在：True
+2025-04-15 18:28:20,814 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:28:20,814 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:28:20,814 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:28:26,259 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1828.zip
+2025-04-15 18:28:26,260 - INFO - 📦 自動備份完成
+2025-04-15 18:30:06,167 - INFO - 🔁 Unified-Team-v2.4.4 啟動
+2025-04-15 18:30:06,167 - INFO - 🧠 StrategyPool 來源: /home/hmtf000001/auto_trading_team/strategy_bundle.py
+2025-04-15 18:30:06,167 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 18:30:06,616 - INFO - ✅ IG 登入成功
+2025-04-15 18:30:06,617 - INFO - 🧪 已整合策略模組：GPT / RSI-MACD / SMA-CROSS / BOLL / TREND
+2025-04-15 18:30:06,617 - INFO - 🔥 DEBUG | strategy_bundle 正在執行 evaluate_all
+2025-04-15 18:30:06,617 - ERROR - ❗策略池錯誤 | name 'logging' is not defined
+2025-04-15 18:30:06,617 - INFO - 📊 策略回傳結果：{}
+2025-04-15 18:30:06,617 - WARNING - ⚠️ 無法下單，策略方向為 NONE 或回傳異常
+2025-04-15 18:30:12,006 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_1830.zip
+2025-04-15 18:30:12,007 - INFO - 📦 自動備份完成
+2025-04-15 20:12:24,677 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 20:30:59,526 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 20:30:59,929 - INFO - ✅ IG 登入成功
+2025-04-15 20:30:59,929 - INFO - ✅ IG 登入成功
+2025-04-15 20:32:41,866 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 20:32:42,203 - INFO - ✅ IG 登入成功
+2025-04-15 20:32:42,204 - INFO - ✅ IG 登入成功
+2025-04-15 20:32:42,204 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 20:32:42,204 - INFO - 🔥 DEBUG | strategy_bundle 正在執行 evaluate_all
+2025-04-15 20:32:42,205 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 20:32:42,453 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 20:32:42,453 - INFO - [DEBUG] 歷史價格筆數：0
+2025-04-15 20:32:42,453 - WARNING - ⚠️ GPT 錯誤（CS.D.EURUSD.MINI.IP）：
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+，使用 fallback → BUY
+2025-04-15 20:32:42,453 - INFO - 🧠 GPT 判斷 | CS.D.EURUSD.MINI.IP 決策：BUY
+2025-04-15 20:32:42,453 - ERROR - ❌ 技術分析錯誤：'list' object has no attribute 'ewm'
+2025-04-15 20:32:42,453 - INFO - 📈 MACD/RSI 判斷 | HOLD (MACD=0.00, RSI=50.00)
+2025-04-15 20:32:42,453 - WARNING - ⚠ SMA 交叉異常 | 'list' object has no attribute 'rolling'
+2025-04-15 20:32:42,453 - INFO - 📊 策略回傳結果：{'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.8}, 'RSI_MACD': {'direction': 'HOLD', 'confidence': 0.7}, 'SMA_CROSS': {'direction': 'HOLD', 'confidence': 0.6}}
+2025-04-15 20:32:43,711 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2032.zip
+2025-04-15 20:32:43,711 - INFO - 📦 自動備份完成
+2025-04-15 21:17:31,628 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:17:31,987 - INFO - ✅ IG 登入成功
+2025-04-15 21:17:31,987 - INFO - ✅ IG 登入成功
+2025-04-15 21:17:31,987 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:17:31,987 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:17:32,230 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:17:32,230 - INFO - [DEBUG] 正在查詢歷史價格：CS.D.EURUSD.MINI.IP
+2025-04-15 21:17:32,230 - INFO - [DEBUG] 回傳價格筆數：0
+2025-04-15 21:17:32,230 - INFO - 📊 策略回傳結果：{'result': 'success'}
+2025-04-15 21:17:33,474 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2117.zip
+2025-04-15 21:17:33,474 - INFO - 📦 自動備份完成
+2025-04-15 21:21:01,194 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:21:01,530 - INFO - ✅ IG 登入成功
+2025-04-15 21:21:01,530 - INFO - ✅ IG 登入成功
+2025-04-15 21:21:01,531 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:21:01,531 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:21:01,769 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:21:01,770 - INFO - [DEBUG] 正在查詢歷史價格：CS.D.EURUSD.MINI.IP
+2025-04-15 21:21:01,770 - INFO - [DEBUG] 回傳價格筆數：0
+2025-04-15 21:21:01,770 - INFO - 📊 策略回傳結果：{'result': 'success'}
+2025-04-15 21:21:03,013 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2121.zip
+2025-04-15 21:21:03,013 - INFO - 📦 自動備份完成
+2025-04-15 21:24:08,448 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:24:08,780 - INFO - ✅ IG 登入成功
+2025-04-15 21:24:08,780 - INFO - ✅ IG 登入成功
+2025-04-15 21:24:08,781 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:24:08,781 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:24:09,037 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:24:09,037 - ERROR - ❗策略池執行失敗 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 21:24:10,272 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2124.zip
+2025-04-15 21:24:10,272 - INFO - 📦 自動備份完成
+2025-04-15 21:26:28,670 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:26:29,022 - INFO - ✅ IG 登入成功
+2025-04-15 21:26:29,022 - INFO - ✅ IG 登入成功
+2025-04-15 21:26:29,022 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:26:29,022 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:26:29,269 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:26:29,270 - ERROR - ❗策略池執行失敗 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 21:26:30,507 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2126.zip
+2025-04-15 21:26:30,508 - INFO - 📦 自動備份完成
+2025-04-15 21:29:23,474 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:29:23,830 - INFO - ✅ IG 登入成功
+2025-04-15 21:29:23,830 - INFO - ✅ IG 登入成功
+2025-04-15 21:29:23,831 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:29:23,831 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:29:24,073 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:29:24,073 - ERROR - ❗策略池執行失敗 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 21:29:25,312 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2129.zip
+2025-04-15 21:29:25,312 - INFO - 📦 自動備份完成
+2025-04-15 21:30:48,888 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:30:49,219 - INFO - ✅ IG 登入成功
+2025-04-15 21:30:49,219 - INFO - ✅ IG 登入成功
+2025-04-15 21:30:49,220 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:30:49,220 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:30:49,503 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:30:49,503 - ERROR - ❗策略池執行失敗 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 21:30:50,744 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2130.zip
+2025-04-15 21:30:50,745 - INFO - 📦 自動備份完成
+2025-04-15 21:36:14,747 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:36:15,110 - INFO - ✅ IG 登入成功
+2025-04-15 21:36:15,110 - INFO - ✅ IG 登入成功
+2025-04-15 21:36:15,110 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:36:15,110 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:36:15,379 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:36:15,380 - ERROR - ❗策略池執行失敗 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 21:36:16,623 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2136.zip
+2025-04-15 21:36:16,624 - INFO - 📦 自動備份完成
+2025-04-15 21:39:45,042 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:39:45,396 - INFO - ✅ IG 登入成功
+2025-04-15 21:39:45,396 - INFO - ✅ IG 登入成功
+2025-04-15 21:39:45,396 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:39:45,396 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:39:45,647 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:39:45,648 - ERROR - ❗策略池執行失敗 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 21:39:46,891 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2139.zip
+2025-04-15 21:39:46,891 - INFO - 📦 自動備份完成
+2025-04-15 21:41:55,730 - INFO - 🔁 啟動 Unified-Team-v2.4.4-FinalFix
+2025-04-15 21:41:56,072 - INFO - ✅ IG 登入成功
+2025-04-15 21:41:56,072 - INFO - ✅ IG 登入成功
+2025-04-15 21:41:56,072 - INFO - 📦 StrategyPool evaluate_all 來源：strategy_bundle
+2025-04-15 21:41:56,072 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 21:41:56,324 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 21:41:56,324 - ERROR - ❗策略池執行失敗 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 21:41:57,568 - INFO - 📦 已備份至：/home/hmtf000001/backup_zips_generated/UnifiedTeam_Backup_20250415_2141.zip
+2025-04-15 21:41:57,568 - INFO - 📦 自動備份完成
+2025-04-15 22:51:34,419 - INFO - 🔁 启动 Unified-Team-v2.4.4-FinalFix
+2025-04-15 22:51:34,760 - INFO - ✅ IG 登入成功
+2025-04-15 22:51:34,760 - INFO - ✅ IG 登录成功
+2025-04-15 22:51:34,761 - INFO - 📦 StrategyPool evaluate_all 来源：strategy_bundle
+2025-04-15 22:51:34,761 - INFO - 💰 查詢價格：CS.D.EURUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 22:51:35,006 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 22:51:35,007 - ERROR - ❗策略池执行失败 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 22:54:35,273 - INFO - 🔁 启动 Unified-Team-v2.4.4-FinalFix
+2025-04-15 22:54:35,619 - INFO - ✅ IG 登入成功
+2025-04-15 22:54:35,619 - INFO - ✅ IG 登录成功
+2025-04-15 22:54:35,619 - INFO - 📦 StrategyPool evaluate_all 来源：strategy_bundle
+2025-04-15 22:54:35,619 - INFO - 💰 查詢價格：CS.D.GBPUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 22:54:35,854 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 22:54:35,855 - ERROR - ❗策略池执行失败 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-04-15 22:55:16,551 - INFO - 🔁 启动 Unified-Team-v2.4.4-FinalFix
+2025-04-15 22:55:16,816 - INFO - ✅ IG 登入成功
+2025-04-15 22:55:16,816 - INFO - ✅ IG 登录成功
+2025-04-15 22:55:16,816 - INFO - 📦 StrategyPool evaluate_all 来源：strategy_bundle
+2025-04-15 22:55:16,816 - INFO - 💰 查詢價格：CS.D.GBPUSD.MINI.IP，解析度：MINUTE，筆數：100
+2025-04-15 22:55:17,051 - WARNING - ⚠️ 價格查詢失敗：404 | 
+2025-04-15 22:55:17,052 - ERROR - ❗策略池执行失败 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+🧹[2025-04-16 23:58:01] 備份清理開始
+✅[2025-04-16 23:58:01] 備份清理完成

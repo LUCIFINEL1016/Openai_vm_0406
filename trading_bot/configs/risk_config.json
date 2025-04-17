@@ -1,0 +1,12 @@
+{
+  "CS.D.GOLD.MINI.IP": {
+    "max_risk": 0.03,
+    "default_stop": 12,
+    "max_trade_per_day": 2
+  },
+  "daily_max_risk": {
+    "Monday": 0.04,
+    "Friday": 0.02
+  }
+}
+

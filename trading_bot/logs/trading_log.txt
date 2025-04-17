@@ -1,0 +1,52 @@
+[2025-04-09 12:03:45] [KALEN] ✅ 成功啟動版本：0408-MiniVer.2+Plus
+[2025-04-09 12:03:45] [KALEN] 📂 檔案位置：/home/hmtf000001/auto_trading_v0408.py
+[2025-04-09 12:03:45] ✅ 自動交易系統已經啟動
+[2025-04-09 12:03:45] 🚀 開始全天交易任務
+[2025-04-09 12:03:46] ❌ OpenAI 分析失敗: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+[2025-04-09 12:03:46] 📰 News Sentiment：BUY
+[2025-04-09 12:03:47] 📊 GOLD: MACD=-0.50, RSI=51.28, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:03:48] 📊 SILVER: MACD=-0.59, RSI=50.35, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:03:49] 📊 NATGAS: MACD=0.14, RSI=51.32, SIGNAL=NEUTRAL → BUY
+[2025-04-09 12:03:51] 📊 NASDAQ: MACD=-0.51, RSI=47.41, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:03:52] 📊 APPLE: MACD=-0.49, RSI=52.22, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:03:53] 📊 EUR/USD: MACD=0.08, RSI=51.65, SIGNAL=NEUTRAL → BUY
+[2025-04-09 12:03:54] 📊 DOW: MACD=-0.71, RSI=48.92, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:03:56] 📊 NATGAS_MINI: MACD=0.72, RSI=50.68, SIGNAL=NEUTRAL → BUY
+[2025-04-09 12:03:57] 📊 EUR/USD_MINI: MACD=-0.77, RSI=44.01, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:03:57] 🗃️ 備份完成：Final_Trading_Backup_20250409_1203.zip
+[2025-04-09 12:08:57] ❌ OpenAI 分析失敗: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+[2025-04-09 12:08:57] 📰 News Sentiment：BUY
+[2025-04-09 12:08:58] 📊 GOLD: MACD=0.27, RSI=54.23, SIGNAL=NEUTRAL → BUY
+[2025-04-09 12:08:59] 📊 SILVER: MACD=-0.38, RSI=45.13, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:09:01] 📊 NATGAS: MACD=-0.31, RSI=45.58, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:09:02] 📊 NASDAQ: MACD=-0.24, RSI=47.23, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:09:03] 📊 APPLE: MACD=-0.97, RSI=49.05, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:09:04] 📊 EUR/USD: MACD=-0.02, RSI=52.45, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:09:06] 📊 DOW: MACD=0.33, RSI=48.97, SIGNAL=NEUTRAL → BUY
+[2025-04-09 12:09:07] 📊 NATGAS_MINI: MACD=0.90, RSI=50.93, SIGNAL=NEUTRAL → BUY
+[2025-04-09 12:09:08] 📊 EUR/USD_MINI: MACD=-0.05, RSI=48.29, SIGNAL=NEUTRAL → SELL
+[2025-04-09 12:09:08] 🗃️ 備份完成：Final_Trading_Backup_20250409_1209.zip
+[2025-04-09 12:12:46] [KALEN] ✅ 成功啟動版本：0408-MiniVer.2+Plus
+[2025-04-09 12:12:46] [KALEN] 📂 檔案位置：/home/hmtf000001/auto_trading_v0408.py
+[2025-04-09 12:12:46] ✅ 自動交易系統已經啟動
+[2025-04-09 12:14:04] [KALEN] ✅ 成功啟動版本：0408-MiniVer.2+Plus
+[2025-04-09 12:14:04] [KALEN] 📂 檔案位置：/home/hmtf000001/auto_trading_v0408.py
+[2025-04-09 12:14:05] ✅ 自動交易系統已經啟動
