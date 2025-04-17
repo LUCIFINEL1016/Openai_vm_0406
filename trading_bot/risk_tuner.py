@@ -1,88 +1,66 @@
-# 版本標籤：Unified-Team-v2.4.6-AutoOrderEnabled（來源：UnifiedTeam_Backup_20250415_2354.zip）
-import logging
+# /home/hmtf000001/trading_bot/risk_tuner.py (函數版本 - 讀取靜態配置)
+import json
+import os
+import logging # 使用 logging
 
-# 初始化日志
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+CONFIG_FILE = 'configs/risk_config.json' # 相對路徑
 
-class RiskTuner:
-    def __init__(self, base_risk=0.02, volatility_factor=1.5, max_risk_limit=0.05):
-        """
-        初始化风控调节器
-        :param base_risk: 基础风险比例（默认值为 2%）
-        :param volatility_factor: 波动性因子，用于根据市场波动调整风险（默认值为 1.5）
-        :param max_risk_limit: 最大风险限制（默认值为 5%）
-        """
-        self.base_risk = base_risk
-        self.volatility_factor = volatility_factor
-        self.max_risk_limit = max_risk_limit
+def get_risk_config(epic: str): # <--- 定義返 get_risk_config 函數
+    """
+    從 configs/risk_config.json 讀取全局風控參數。
+    (注意：目前版本忽略 epic 參數，只讀取全局配置)
+    返回包含風險配置的字典。
+    """
+    # 定義預設值，以防文件讀取失敗或缺少鍵
+    default_config = {
+        "default_stop": 30,
+        "max_risk_per_trade": 0.02,
+        "daily_max_risk": 0.1,
+        "trailing_stop": True
+    }
+    abs_config_path = os.path.abspath(CONFIG_FILE)
+    print(f"DEBUG: [RiskTuner] Attempting to load risk config from: {abs_config_path}") # DEBUG
 
-    def adjust_risk_based_on_volatility(self, current_volatility):
-        """
-        根据当前市场波动性调整风险
-        :param current_volatility: 当前市场波动性（通常是历史价格波动的标准差）
-        :return: float，调整后的风险比例
-        """
-        try:
-            adjusted_risk = self.base_risk * (1 + self.volatility_factor * current_volatility)
-            # 确保调整后的风险不超过最大风险限制
-            if adjusted_risk > self.max_risk_limit:
-                adjusted_risk = self.max_risk_limit
-                logger.warning(f"⚠️ 调整后的风险比例超过最大限制，使用最大风险：{self.max_risk_limit*100:.2f}%")
-            
-            logger.info(f"✅ 调整后的风险比例：{adjusted_risk*100:.2f}%")
-            return adjusted_risk
-        except Exception as e:
-            logger.error(f"❌ 风险调整失败：{e}")
-            return self.base_risk  # 在出现异常时返回基础风险
+    if not os.path.exists(CONFIG_FILE):
+        logger.warning(f"⚠️ 風控配置文件未找到: {abs_config_path}. 使用預設值。")
+        print(f"DEBUG: [RiskTuner] Config file not found, returning default.") # DEBUG
+        return default_config
 
-    def adjust_risk_based_on_position(self, position_size, account_balance):
-        """
-        根据当前仓位大小和账户余额调整风险比例
-        :param position_size: 当前持仓的大小
-        :param account_balance: 当前账户余额
-        :return: float，调整后的风险比例
-        """
-        try:
-            risk_per_position = position_size / account_balance
-            adjusted_risk = self.base_risk * (1 + risk_per_position)
-            
-            # 确保调整后的风险不超过最大风险限制
-            if adjusted_risk > self.max_risk_limit:
-                adjusted_risk = self.max_risk_limit
-                logger.warning(f"⚠️ 调整后的风险比例超过最大限制，使用最大风险：{self.max_risk_limit*100:.2f}%")
-            
-            logger.info(f"✅ 根据仓位调整后的风险比例：{adjusted_risk*100:.2f}%")
-            return adjusted_risk
-        except Exception as e:
-            logger.error(f"❌ 仓位调整失败：{e}")
-            return self.base_risk  # 在出现异常时返回基础风险
+    try:
+        with open(CONFIG_FILE, "r", encoding='utf-8') as f:
+            data = json.load(f)
+            # 使用 .get() 提供預設值，增加健壯性
+            config = {
+                "default_stop": data.get("default_stop", default_config["default_stop"]),
+                "max_risk_per_trade": data.get("max_risk_per_trade", default_config["max_risk_per_trade"]),
+                "daily_max_risk": data.get("daily_max_risk", default_config["daily_max_risk"]),
+                "trailing_stop": data.get("trailing_stop", default_config["trailing_stop"])
+            }
+            logger.info(f"✅ 成功從 {abs_config_path} 加載風控配置。")
+            print(f"DEBUG: [RiskTuner] Config loaded successfully: {config}") # DEBUG
+            return config
+    except json.JSONDecodeError:
+         logger.error(f"❌ 無法解析風控配置文件 JSON: {abs_config_path}. 使用預設值。", exc_info=True)
+         print(f"DEBUG: [RiskTuner] JSON decode error, returning default.") # DEBUG
+         return default_config
+    except Exception as e:
+        logger.error(f"❌ 讀取風控配置文件 {abs_config_path} 時出錯: {e}. 使用預設值。", exc_info=True)
+        print(f"DEBUG: [RiskTuner] Exception reading config, returning default: {e}") # DEBUG
+        return default_config
 
-    def calculate_max_loss(self, account_balance, adjusted_risk):
-        """
-        计算当前风险水平下的最大可承受损失
-        :param account_balance: 当前账户余额
-        :param adjusted_risk: 当前调整后的风险比例
-        :return: float，最大可承受损失
-        """
-        try:
-            max_loss = account_balance * adjusted_risk
-            logger.info(f"✅ 最大可承受损失：{max_loss:.2f}")
-            return max_loss
-        except Exception as e:
-            logger.error(f"❌ 计算最大损失失败：{e}")
-            return 0.0  # 在出现异常时返回 0.0
-
-# 示例使用
-if __name__ == "__main__":
-    risk_tuner = RiskTuner()
-
-    # 假设当前账户余额为 10000，当前市场波动性为 0.02
-    adjusted_risk = risk_tuner.adjust_risk_based_on_volatility(0.02)
-
-    # 假设当前持仓为 0.1，账户余额为 10000
-    adjusted_risk_position = risk_tuner.adjust_risk_based_on_position(0.1, 10000)
-
-    # 计算最大可承受损失
-    max_loss = risk_tuner.calculate_max_loss(10000, adjusted_risk_position)
-    print(f"最大可承受损失：{max_loss}")
+# 可以直接運行此文件嚟測試 get_risk_config() 功能 (可選)
+if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+    # 假設有個 EPIC 用嚟測試 (雖然目前函數唔用佢)
+    test_epic = "CS.D.GBPUSD.MINI.IP"
+    risk_settings = get_risk_config(test_epic)
+    print("-" * 20)
+    if risk_settings:
+        print(f"成功加載風險配置:")
+        for key, value in risk_settings.items():
+             print(f"- {key}: {value}")
+    else:
+        # 理論上總會返回 default_config
+        print("未能加載風險配置 (呢個情況唔應該出現)")
+    print("-" * 20)

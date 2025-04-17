@@ -902,3 +902,1213 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 2025-04-15 22:55:17,052 - ERROR - ❗策略池执行失败 | The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
 🧹[2025-04-16 23:58:01] 備份清理開始
 ✅[2025-04-16 23:58:01] 備份清理完成
+2025-04-17 21:29:05,800 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 21:29:06,183 - INFO - ✅ IG 登入成功
+2025-04-17 21:29:06,183 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 21:29:06,192 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 21:29:06,192 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 21:29:06,192 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 21:29:06,192 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 21:29:06,192 - INFO - Scheduler started
+2025-04-17 21:29:06,193 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 21:39:06 HKT)" (scheduled at 2025-04-17 21:29:06.191976+08:00)
+2025-04-17 21:29:06,193 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 21:29:06,193 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 21:29:06,193 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 21:29:06,194 - INFO -   ℹ️ [CS.D.GOLD.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:06,294 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 21:29:06,294 - INFO -   ℹ️ [CS.D.SILVER.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:06,394 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 21:29:06,394 - INFO -   ℹ️ [CS.D.BRENT.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:06,494 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 21:29:06,495 - INFO -   ℹ️ [CS.D.NATGAS.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:06,596 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 21:29:06,596 - INFO -   ℹ️ [CS.D.COPPER.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:06,696 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 21:29:06,696 - INFO -   ℹ️ [CS.D.SOYBEAN.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:06,797 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 21:29:06,797 - INFO -   ℹ️ [CS.D.COFFEE.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:06,897 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 21:29:06,897 - INFO -   ℹ️ [CS.D.COCOA.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:06,997 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 21:29:06,997 - INFO -   ℹ️ [CS.D.COTTON.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:07,097 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 21:29:07,098 - INFO -   ℹ️ [CS.D.SUGAR.CASH.IP] [暫時跳過] 價格獲取、策略評估、下單流程
+2025-04-17 21:29:07,198 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 21:29:07,198 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 21:39:06 HKT)" executed successfully
+2025-04-17 21:29:43,964 - INFO - ⏹️ 收到停止信號 (KeyboardInterrupt)，關閉排程器...
+2025-04-17 21:29:43,965 - INFO - Scheduler has been shut down
+2025-04-17 21:55:35,376 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 21:55:35,718 - INFO - ✅ IG 登入成功
+2025-04-17 21:55:35,718 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 21:55:35,727 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 21:55:35,727 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 21:55:35,727 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 21:55:35,728 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 21:55:35,728 - INFO - Scheduler started
+2025-04-17 21:55:35,728 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 22:05:35 HKT)" (scheduled at 2025-04-17 21:55:35.727238+08:00)
+2025-04-17 21:55:35,729 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 21:55:35,729 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 21:55:35,729 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 21:55:35,729 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:35,729 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:35,967 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:35,967 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:35,968 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 21:55:35,968 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:35,968 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:36,205 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:36,205 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:36,205 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 21:55:36,206 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:36,206 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:36,447 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:36,447 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:36,448 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 21:55:36,448 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:36,448 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:36,689 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:36,689 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:36,690 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 21:55:36,690 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:36,690 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:36,928 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:36,928 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:36,929 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 21:55:36,929 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:36,929 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:37,165 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:37,165 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:37,166 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 21:55:37,166 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:37,166 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:37,427 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:37,427 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:37,427 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 21:55:37,428 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:37,428 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:37,667 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:37,667 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:37,667 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 21:55:37,667 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:37,667 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:37,911 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:37,912 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:37,912 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 21:55:37,912 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 21:55:37,912 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 21:55:38,155 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 21:55:38,155 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 21:55:38,156 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 21:55:38,156 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 22:05:35 HKT)" executed successfully
+2025-04-17 22:05:35,727 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 22:15:35 HKT)" (scheduled at 2025-04-17 22:05:35.727238+08:00)
+2025-04-17 22:05:35,728 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 22:05:35,728 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 22:05:35,728 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 22:05:35,728 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:35,728 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:36,004 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:36,004 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:36,004 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 22:05:36,004 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:36,005 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:36,253 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:36,253 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:36,254 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 22:05:36,254 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:36,254 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:36,506 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:36,506 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:36,506 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 22:05:36,506 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:36,506 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:36,748 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:36,748 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:36,749 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 22:05:36,749 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:36,749 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:36,992 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:36,992 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:36,993 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 22:05:36,993 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:36,993 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:37,237 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:37,237 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:37,237 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 22:05:37,238 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:37,238 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:37,493 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:37,493 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:37,494 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 22:05:37,494 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:37,494 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:37,736 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:37,736 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:37,736 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 22:05:37,736 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:37,736 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:37,975 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:37,975 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:37,975 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 22:05:37,975 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 22:05:37,975 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 D 週期價格數據...
+2025-04-17 22:05:38,213 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：404, 錯誤：
+2025-04-17 22:05:38,213 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:05:38,214 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 22:05:38,214 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 22:15:35 HKT)" executed successfully
+2025-04-17 22:51:27,552 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 22:51:27,923 - INFO - ✅ IG 登入成功
+2025-04-17 22:51:27,923 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 22:51:27,932 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 22:51:27,932 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 22:51:27,932 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 22:51:27,932 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 22:51:27,932 - INFO - Scheduler started
+2025-04-17 22:51:27,933 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:01:27 HKT)" (scheduled at 2025-04-17 22:51:27.931810+08:00)
+2025-04-17 22:51:27,933 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 22:51:27,933 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 22:51:27,933 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 22:51:27,933 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:27,934 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:28,179 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:28,180 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:28,180 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 22:51:28,180 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:28,180 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:28,412 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:28,413 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:28,413 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 22:51:28,413 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:28,413 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:28,648 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:28,648 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:28,648 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 22:51:28,648 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:28,648 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:28,881 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:28,882 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:28,882 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 22:51:28,882 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:28,882 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:29,122 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:29,122 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:29,123 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 22:51:29,123 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:29,123 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:29,397 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:29,397 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:29,398 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 22:51:29,398 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:29,398 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:29,637 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:29,637 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:29,638 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 22:51:29,638 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:29,638 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:29,909 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:29,909 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:29,910 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 22:51:29,910 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:29,910 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:30,185 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:30,185 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:30,186 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 22:51:30,186 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 22:51:30,186 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 22:51:30,440 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:51:30,440 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:51:30,441 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 22:51:30,441 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:01:27 HKT)" executed successfully
+2025-04-17 22:55:40,986 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 22:55:41,422 - INFO - ✅ IG 登入成功
+2025-04-17 22:55:41,422 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 22:55:41,430 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 22:55:41,430 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 22:55:41,431 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 22:55:41,431 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 22:55:41,431 - INFO - Scheduler started
+2025-04-17 22:55:41,432 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:05:41 HKT)" (scheduled at 2025-04-17 22:55:41.430585+08:00)
+2025-04-17 22:55:41,432 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 22:55:41,432 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 22:55:41,432 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 22:55:41,432 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,432 - ERROR - ❗[CS.D.GOLD.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,433 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 22:55:41,433 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,433 - ERROR - ❗[CS.D.SILVER.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,434 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 22:55:41,434 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,434 - ERROR - ❗[CS.D.BRENT.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,435 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 22:55:41,435 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,435 - ERROR - ❗[CS.D.NATGAS.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,436 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 22:55:41,436 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,436 - ERROR - ❗[CS.D.COPPER.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,436 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 22:55:41,436 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,436 - ERROR - ❗[CS.D.SOYBEAN.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,437 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 22:55:41,437 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,437 - ERROR - ❗[CS.D.COFFEE.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,438 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 22:55:41,438 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,438 - ERROR - ❗[CS.D.COCOA.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,438 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 22:55:41,438 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,439 - ERROR - ❗[CS.D.COTTON.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,439 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 22:55:41,439 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 22:55:41,439 - ERROR - ❗[CS.D.SUGAR.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 22:55:41,440 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 22:55:41,440 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:05:41 HKT)" executed successfully
+2025-04-17 22:59:08,057 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 22:59:08,397 - INFO - ✅ IG 登入成功
+2025-04-17 22:59:08,398 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 22:59:08,406 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 22:59:08,406 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 22:59:08,406 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 22:59:08,407 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 22:59:08,407 - INFO - Scheduler started
+2025-04-17 22:59:08,407 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:09:08 HKT)" (scheduled at 2025-04-17 22:59:08.406566+08:00)
+2025-04-17 22:59:08,408 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 22:59:08,408 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 22:59:08,408 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 22:59:08,408 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:08,408 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:08,662 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:08,662 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:08,663 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 22:59:08,663 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:08,663 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:08,917 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:08,917 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:08,917 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 22:59:08,917 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:08,917 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:09,157 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:09,158 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:09,158 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 22:59:09,158 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:09,158 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:09,400 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:09,400 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:09,401 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 22:59:09,401 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:09,401 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:09,640 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:09,641 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:09,641 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 22:59:09,641 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:09,641 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:09,921 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:09,921 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:09,921 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 22:59:09,921 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:09,922 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:10,195 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:10,195 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:10,195 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 22:59:10,195 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:10,195 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:10,462 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:10,462 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:10,463 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 22:59:10,463 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:10,463 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:10,730 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:10,730 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:10,731 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 22:59:10,731 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 22:59:10,731 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 22:59:11,003 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 22:59:11,003 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 22:59:11,004 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 22:59:11,004 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:09:08 HKT)" executed successfully
+2025-04-17 23:01:27,932 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:11:27 HKT)" (scheduled at 2025-04-17 23:01:27.931810+08:00)
+2025-04-17 23:01:27,932 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:01:27,932 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:01:27,932 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:01:27,932 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:27,932 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:28,202 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:28,202 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:28,202 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:01:28,202 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:28,202 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:28,479 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:28,479 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:28,479 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:01:28,479 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:28,479 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:28,718 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:28,718 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:28,719 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:01:28,719 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:28,719 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:28,960 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:28,960 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:28,961 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:01:28,961 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:28,961 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:29,227 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:29,227 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:29,227 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:01:29,227 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:29,227 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:29,509 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:29,509 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:29,510 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:01:29,510 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:29,510 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:29,802 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:29,802 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:29,802 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:01:29,802 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:29,802 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:30,043 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:30,043 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:30,043 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:01:30,043 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:30,044 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:30,291 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:30,291 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:30,292 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:01:30,292 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:01:30,292 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V3 API)...
+2025-04-17 23:01:30,533 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:01:30,533 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:01:30,534 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:01:30,534 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:11:27 HKT)" executed successfully
+2025-04-17 23:03:50,500 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 23:03:50,842 - INFO - ✅ IG 登入成功
+2025-04-17 23:03:50,842 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 23:03:50,851 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 23:03:50,851 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 23:03:50,851 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 23:03:50,851 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 23:03:50,852 - INFO - Scheduler started
+2025-04-17 23:03:50,852 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:13:50 HKT)" (scheduled at 2025-04-17 23:03:50.850953+08:00)
+2025-04-17 23:03:50,852 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:03:50,852 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:03:50,853 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:03:50,853 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:50,853 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:51,088 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:51,088 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:51,089 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:03:51,089 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:51,089 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:51,321 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:51,321 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:51,321 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:03:51,322 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:51,322 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:51,560 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:51,560 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:51,561 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:03:51,561 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:51,561 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:51,827 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:51,827 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:51,827 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:03:51,828 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:51,828 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:52,060 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:52,060 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:52,061 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:03:52,061 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:52,061 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:52,301 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:52,301 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:52,302 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:03:52,302 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:52,302 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:52,540 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:52,541 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:52,541 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:03:52,541 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:52,541 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:52,779 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:52,780 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:52,780 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:03:52,780 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:52,780 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:53,037 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:53,037 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:53,038 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:03:53,038 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:03:53,038 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:03:53,310 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:03:53,311 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:03:53,311 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:03:53,311 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:13:50 HKT)" executed successfully
+2025-04-17 23:05:41,430 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:15:41 HKT)" (scheduled at 2025-04-17 23:05:41.430585+08:00)
+2025-04-17 23:05:41,431 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:05:41,431 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:05:41,431 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:05:41,431 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,431 - ERROR - ❗[CS.D.GOLD.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,432 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:05:41,432 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,432 - ERROR - ❗[CS.D.SILVER.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,433 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:05:41,433 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,433 - ERROR - ❗[CS.D.BRENT.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,434 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:05:41,434 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,434 - ERROR - ❗[CS.D.NATGAS.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,434 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:05:41,434 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,434 - ERROR - ❗[CS.D.COPPER.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,435 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:05:41,435 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,435 - ERROR - ❗[CS.D.SOYBEAN.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,436 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:05:41,436 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,436 - ERROR - ❗[CS.D.COFFEE.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,436 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:05:41,436 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,436 - ERROR - ❗[CS.D.COCOA.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,437 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:05:41,437 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,437 - ERROR - ❗[CS.D.COTTON.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,437 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:05:41,437 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:05:41,437 - ERROR - ❗[CS.D.SUGAR.CASH.IP] 屬性錯誤 (可能 IGClient 缺少方法或 API 問題): 'IGClient' object has no attribute 'get_price_history'
+Traceback (most recent call last):
+  File "/home/hmtf000001/trading_bot/auto_trading_unified_sim.py", line 142, in run_trading_cycle
+    prices = ig_client.get_price_history(epic, resolution='D', num_points=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'IGClient' object has no attribute 'get_price_history'
+2025-04-17 23:05:41,438 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:05:41,438 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:15:41 HKT)" executed successfully
+2025-04-17 23:09:08,406 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:19:08 HKT)" (scheduled at 2025-04-17 23:09:08.406566+08:00)
+2025-04-17 23:09:08,407 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:09:08,407 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:09:08,407 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:09:08,407 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:08,407 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:08,675 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:08,676 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:08,676 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:09:08,676 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:08,676 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:08,920 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:08,920 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:08,921 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:09:08,921 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:08,921 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:09,165 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:09,165 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:09,165 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:09:09,165 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:09,166 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:09,400 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:09,400 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:09,401 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:09:09,401 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:09,401 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:09,645 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:09,645 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:09,645 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:09:09,645 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:09,645 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:09,917 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:09,917 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:09,918 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:09:09,918 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:09,918 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:10,188 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:10,189 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:10,189 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:09:10,189 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:10,189 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:10,430 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:10,430 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:10,431 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:09:10,431 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:10,431 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:10,675 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:10,675 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:10,675 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:09:10,675 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:09:10,675 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:09:10,921 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:09:10,921 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:09:10,921 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:09:10,922 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:19:08 HKT)" executed successfully
+2025-04-17 23:11:11,827 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 23:11:12,171 - INFO - ✅ IG 登入成功
+2025-04-17 23:11:12,171 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 23:11:12,182 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 23:11:12,182 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 23:11:12,182 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 23:11:12,183 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 23:11:12,183 - INFO - Scheduler started
+2025-04-17 23:11:12,183 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:21:12 HKT)" (scheduled at 2025-04-17 23:11:12.182306+08:00)
+2025-04-17 23:11:12,184 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:11:12,184 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:11:12,184 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:11:12,184 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:12,184 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:12,466 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:12,466 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:12,467 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:11:12,467 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:12,467 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:12,727 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:12,727 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:12,728 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:11:12,728 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:12,728 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:12,978 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:12,978 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:12,979 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:11:12,979 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:12,979 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:13,255 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:13,255 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:13,255 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:11:13,255 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:13,255 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:13,504 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:13,505 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:13,505 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:11:13,505 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:13,505 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:13,768 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:13,769 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:13,769 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:11:13,769 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:13,769 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:14,034 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:14,035 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:14,035 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:11:14,035 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:14,035 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:14,282 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:14,282 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:14,283 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:11:14,283 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:14,283 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:14,531 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:14,531 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:14,531 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:11:14,531 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:11:14,531 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:11:14,778 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:11:14,778 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:11:14,779 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:11:14,779 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:21:12 HKT)" executed successfully
+2025-04-17 23:13:50,851 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:23:50 HKT)" (scheduled at 2025-04-17 23:13:50.850953+08:00)
+2025-04-17 23:13:50,851 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:13:50,852 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:13:50,852 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:13:50,852 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:50,852 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:51,110 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:51,110 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:51,110 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:13:51,111 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:51,111 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:51,378 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:51,378 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:51,378 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:13:51,379 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:51,379 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:51,617 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:51,617 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:51,618 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:13:51,618 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:51,618 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:51,849 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:51,849 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:51,849 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:13:51,849 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:51,849 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:52,091 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:52,091 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:52,092 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:13:52,092 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:52,092 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:52,363 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:52,363 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:52,364 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:13:52,364 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:52,364 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:52,610 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:52,610 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:52,611 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:13:52,611 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:52,611 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:52,883 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:52,883 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:52,883 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:13:52,883 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:52,883 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:53,124 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:53,124 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:53,125 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:13:53,125 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:13:53,125 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 D 週期價格數據 (使用 V2 API)...
+2025-04-17 23:13:53,364 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：400, 錯誤：Invalid parameter=D
+2025-04-17 23:13:53,364 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:13:53,364 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:13:53,364 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:23:50 HKT)" executed successfully
+2025-04-17 23:20:23,434 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 23:20:23,851 - INFO - ✅ IG 登入成功
+2025-04-17 23:20:23,852 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 23:20:23,863 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 23:20:23,863 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 23:20:23,863 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 23:20:23,864 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 23:20:23,864 - INFO - Scheduler started
+2025-04-17 23:20:23,864 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:30:23 HKT)" (scheduled at 2025-04-17 23:20:23.863117+08:00)
+2025-04-17 23:20:23,864 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:20:23,865 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:20:23,865 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:20:23,865 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:23,865 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:24,117 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:24,117 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:24,118 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:20:24,118 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:24,118 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:24,374 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:24,374 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:24,375 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:20:24,375 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:24,375 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:24,624 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:24,624 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:24,624 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:20:24,624 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:24,624 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:24,878 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:24,878 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:24,879 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:20:24,879 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:24,879 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:25,132 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:25,132 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:25,133 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:20:25,133 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:25,133 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:25,383 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:25,383 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:25,383 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:20:25,383 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:25,383 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:25,651 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:25,651 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:25,651 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:20:25,651 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:25,651 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:25,899 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:25,899 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:25,900 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:20:25,900 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:25,900 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:26,153 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:26,153 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:26,153 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:20:26,154 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:20:26,154 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:20:26,419 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:20:26,419 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:20:26,419 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:20:26,420 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:30:23 HKT)" executed successfully
+2025-04-17 23:21:12,182 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:31:12 HKT)" (scheduled at 2025-04-17 23:21:12.182306+08:00)
+2025-04-17 23:21:12,183 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:21:12,183 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:21:12,183 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:21:12,183 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:12,183 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:12,490 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:12,490 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:12,491 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:21:12,491 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:12,491 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:12,743 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:12,744 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:12,744 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:21:12,744 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:12,744 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:13,045 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:13,046 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:13,046 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:21:13,046 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:13,046 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:13,297 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:13,297 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:13,298 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:21:13,298 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:13,298 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:13,554 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:13,554 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:13,555 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:21:13,555 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:13,555 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:13,807 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:13,807 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:13,807 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:21:13,807 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:13,808 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:14,064 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:14,064 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:14,064 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:21:14,064 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:14,064 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:14,310 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:14,310 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:14,311 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:21:14,311 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:14,311 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:14,567 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:14,567 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:14,568 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:21:14,568 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:21:14,568 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:21:14,814 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:21:14,814 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:21:14,814 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:21:14,815 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:31:12 HKT)" executed successfully
+2025-04-17 23:30:23,863 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:40:23 HKT)" (scheduled at 2025-04-17 23:30:23.863117+08:00)
+2025-04-17 23:30:23,863 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:30:23,864 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:30:23,864 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:30:23,864 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:23,865 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:24,220 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:24,220 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:24,221 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:30:24,221 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:24,221 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:24,490 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:24,490 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:24,490 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:30:24,490 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:24,491 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:24,742 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:24,742 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:24,743 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:30:24,743 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:24,743 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:24,991 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:24,991 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:24,991 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:30:24,992 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:24,992 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:25,239 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:25,239 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:25,240 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:30:25,240 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:25,240 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:25,533 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:25,533 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:25,533 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:30:25,533 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:25,533 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:25,783 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:25,784 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:25,784 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:30:25,784 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:25,784 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:26,037 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:26,037 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:26,038 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:30:26,038 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:26,038 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:26,293 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:26,294 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:26,294 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:30:26,294 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:30:26,294 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V2 API)...
+2025-04-17 23:30:26,542 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:30:26,543 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:30:26,543 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:30:26,543 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:40:23 HKT)" executed successfully
+2025-04-17 23:34:20,159 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-17 23:34:20,493 - INFO - ✅ IG 登入成功
+2025-04-17 23:34:20,493 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-17 23:34:20,504 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-17 23:34:20,504 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-17 23:34:20,504 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-17 23:34:20,505 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-17 23:34:20,505 - INFO - Scheduler started
+2025-04-17 23:34:20,505 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:44:20 HKT)" (scheduled at 2025-04-17 23:34:20.504427+08:00)
+2025-04-17 23:34:20,506 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:34:20,506 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:34:20,506 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:34:20,506 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:20,506 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:20,795 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:20,795 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:20,796 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:34:20,796 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:20,796 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:21,061 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:21,062 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:21,062 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:34:21,062 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:21,062 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:21,324 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:21,324 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:21,324 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:34:21,324 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:21,325 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:21,604 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:21,604 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:21,604 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:34:21,604 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:21,604 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:21,857 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:21,858 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:21,858 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:34:21,858 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:21,858 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:22,137 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:22,138 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:22,138 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:34:22,138 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:22,138 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:22,403 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:22,403 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:22,404 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:34:22,404 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:22,404 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:22,666 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:22,667 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:22,667 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:34:22,667 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:22,667 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:22,927 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:22,927 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:22,927 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:34:22,927 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:34:22,928 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:34:23,207 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:34:23,207 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:34:23,207 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:34:23,207 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:44:20 HKT)" executed successfully
+2025-04-17 23:44:20,504 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:54:20 HKT)" (scheduled at 2025-04-17 23:44:20.504427+08:00)
+2025-04-17 23:44:20,505 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-17 23:44:20,505 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 10 個產品。
+2025-04-17 23:44:20,505 - INFO -   ➡️ 開始處理商品: CS.D.GOLD.CASH.IP
+2025-04-17 23:44:20,505 - INFO -   📦 [CS.D.GOLD.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:20,505 - INFO - 嘗試為 CS.D.GOLD.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:20,809 - ERROR - ❌ 獲取 CS.D.GOLD.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:20,809 - WARNING -   ⚠️ [CS.D.GOLD.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:20,810 - INFO -   ➡️ 開始處理商品: CS.D.SILVER.CASH.IP
+2025-04-17 23:44:20,810 - INFO -   📦 [CS.D.SILVER.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:20,810 - INFO - 嘗試為 CS.D.SILVER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:21,080 - ERROR - ❌ 獲取 CS.D.SILVER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:21,080 - WARNING -   ⚠️ [CS.D.SILVER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:21,080 - INFO -   ➡️ 開始處理商品: CS.D.BRENT.CASH.IP
+2025-04-17 23:44:21,081 - INFO -   📦 [CS.D.BRENT.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:21,081 - INFO - 嘗試為 CS.D.BRENT.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:21,341 - ERROR - ❌ 獲取 CS.D.BRENT.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:21,342 - WARNING -   ⚠️ [CS.D.BRENT.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:21,342 - INFO -   ➡️ 開始處理商品: CS.D.NATGAS.CASH.IP
+2025-04-17 23:44:21,342 - INFO -   📦 [CS.D.NATGAS.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:21,342 - INFO - 嘗試為 CS.D.NATGAS.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:21,593 - ERROR - ❌ 獲取 CS.D.NATGAS.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:21,593 - WARNING -   ⚠️ [CS.D.NATGAS.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:21,593 - INFO -   ➡️ 開始處理商品: CS.D.COPPER.CASH.IP
+2025-04-17 23:44:21,594 - INFO -   📦 [CS.D.COPPER.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:21,594 - INFO - 嘗試為 CS.D.COPPER.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:21,852 - ERROR - ❌ 獲取 CS.D.COPPER.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:21,852 - WARNING -   ⚠️ [CS.D.COPPER.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:21,852 - INFO -   ➡️ 開始處理商品: CS.D.SOYBEAN.CASH.IP
+2025-04-17 23:44:21,852 - INFO -   📦 [CS.D.SOYBEAN.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:21,853 - INFO - 嘗試為 CS.D.SOYBEAN.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:22,112 - ERROR - ❌ 獲取 CS.D.SOYBEAN.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:22,112 - WARNING -   ⚠️ [CS.D.SOYBEAN.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:22,112 - INFO -   ➡️ 開始處理商品: CS.D.COFFEE.CASH.IP
+2025-04-17 23:44:22,113 - INFO -   📦 [CS.D.COFFEE.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:22,113 - INFO - 嘗試為 CS.D.COFFEE.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:22,381 - ERROR - ❌ 獲取 CS.D.COFFEE.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:22,381 - WARNING -   ⚠️ [CS.D.COFFEE.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:22,381 - INFO -   ➡️ 開始處理商品: CS.D.COCOA.CASH.IP
+2025-04-17 23:44:22,381 - INFO -   📦 [CS.D.COCOA.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:22,382 - INFO - 嘗試為 CS.D.COCOA.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:22,638 - ERROR - ❌ 獲取 CS.D.COCOA.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:22,638 - WARNING -   ⚠️ [CS.D.COCOA.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:22,638 - INFO -   ➡️ 開始處理商品: CS.D.COTTON.CASH.IP
+2025-04-17 23:44:22,638 - INFO -   📦 [CS.D.COTTON.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:22,638 - INFO - 嘗試為 CS.D.COTTON.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:22,898 - ERROR - ❌ 獲取 CS.D.COTTON.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:22,898 - WARNING -   ⚠️ [CS.D.COTTON.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:22,899 - INFO -   ➡️ 開始處理商品: CS.D.SUGAR.CASH.IP
+2025-04-17 23:44:22,899 - INFO -   📦 [CS.D.SUGAR.CASH.IP] 獲取價格數據...
+2025-04-17 23:44:22,899 - INFO - 嘗試為 CS.D.SUGAR.CASH.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-17 23:44:23,156 - ERROR - ❌ 獲取 CS.D.SUGAR.CASH.IP 價格失敗，狀態碼：404, 錯誤：error.price-history.io-error
+2025-04-17 23:44:23,156 - WARNING -   ⚠️ [CS.D.SUGAR.CASH.IP] 沒有有效價格資料，跳過此商品。
+2025-04-17 23:44:23,156 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-17 23:44:23,156 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-17 23:54:20 HKT)" executed successfully
+2025-04-18 00:02:50,206 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-18 00:02:50,588 - INFO - ✅ IG 登入成功
+2025-04-18 00:02:50,588 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-18 00:02:50,597 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 00:02:50,597 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-18 00:02:50,597 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-18 00:02:50,597 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-18 00:02:50,598 - INFO - Scheduler started
+2025-04-18 00:02:50,598 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:12:50 HKT)" (scheduled at 2025-04-18 00:02:50.597026+08:00)
+2025-04-18 00:02:50,598 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-18 00:02:50,598 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 1 個產品。
+2025-04-18 00:02:50,599 - INFO -   ➡️ 開始處理商品: CS.D.GBPUSD.MINI.IP
+2025-04-18 00:02:50,599 - INFO -   📦 [CS.D.GBPUSD.MINI.IP] 獲取價格數據...
+2025-04-18 00:02:50,599 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:02:50,919 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:02:50,919 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:02:51,203 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:02:51,203 - INFO - [DEBUG] 價格筆數：20
+2025-04-18 00:02:51,228 - INFO - 📊 情绪分析：CS.D.GBPUSD.MINI.IP | 极性：0.00 | 决策：HOLD
+2025-04-18 00:02:51,228 - INFO - 🧠 GPT 判斷 | CS.D.GBPUSD.MINI.IP 決策：HOLD
+2025-04-18 00:02:51,231 - INFO - 📉 MACD计算：0.01 | RSI计算：63.52
+2025-04-18 00:02:51,231 - INFO -   📊 [CS.D.GBPUSD.MINI.IP] 策略回傳結果(模擬): {'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.9}, 'RSI_MACD': {'direction': 'BUY', 'confidence': 0.9}, 'SMA_CROSS': {'direction': 'BUY', 'confidence': 0.9}}
+2025-04-18 00:02:51,231 - INFO -   ⛔ [CS.D.GBPUSD.MINI.IP] 綜合決策為 HOLD，不進行交易
+2025-04-18 00:02:51,232 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-18 00:02:51,232 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:12:50 HKT)" executed successfully
+2025-04-18 00:10:29,222 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-18 00:10:29,565 - INFO - ✅ IG 登入成功
+2025-04-18 00:10:29,565 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-18 00:10:29,574 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 00:10:29,574 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-18 00:10:29,574 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-18 00:10:29,575 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-18 00:10:29,575 - INFO - Scheduler started
+2025-04-18 00:10:29,575 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:20:29 HKT)" (scheduled at 2025-04-18 00:10:29.574327+08:00)
+2025-04-18 00:10:29,576 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-18 00:10:29,576 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 1 個產品。
+2025-04-18 00:10:29,576 - INFO -   ➡️ 開始處理商品: CS.D.GBPUSD.MINI.IP
+2025-04-18 00:10:29,576 - INFO -   📦 [CS.D.GBPUSD.MINI.IP] 獲取價格數據...
+2025-04-18 00:10:29,576 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:10:29,982 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:10:29,982 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:10:30,268 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:10:30,268 - INFO - [DEBUG] 價格筆數：20
+2025-04-18 00:10:30,292 - INFO - 📊 情绪分析：CS.D.GBPUSD.MINI.IP | 极性：0.00 | 决策：HOLD
+2025-04-18 00:10:30,293 - INFO - 🧠 GPT 判斷 | CS.D.GBPUSD.MINI.IP 決策：HOLD
+2025-04-18 00:10:30,295 - INFO - 📉 MACD计算：0.01 | RSI计算：63.44
+2025-04-18 00:10:30,296 - INFO -   📊 [CS.D.GBPUSD.MINI.IP] 策略回傳結果(模擬): {'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.9}, 'RSI_MACD': {'direction': 'BUY', 'confidence': 0.9}, 'SMA_CROSS': {'direction': 'BUY', 'confidence': 0.9}}
+2025-04-18 00:10:30,296 - INFO -   ⛔ [CS.D.GBPUSD.MINI.IP] 綜合決策為 HOLD，不進行交易
+2025-04-18 00:10:30,297 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-18 00:10:30,297 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:20:29 HKT)" executed successfully
+2025-04-18 00:12:50,597 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:22:50 HKT)" (scheduled at 2025-04-18 00:12:50.597026+08:00)
+2025-04-18 00:12:50,597 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-18 00:12:50,597 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 1 個產品。
+2025-04-18 00:12:50,598 - INFO -   ➡️ 開始處理商品: CS.D.GBPUSD.MINI.IP
+2025-04-18 00:12:50,598 - INFO -   📦 [CS.D.GBPUSD.MINI.IP] 獲取價格數據...
+2025-04-18 00:12:50,598 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:12:50,932 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:12:50,932 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:12:51,215 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:12:51,216 - INFO - [DEBUG] 價格筆數：20
+2025-04-18 00:12:51,216 - INFO - 📊 情绪分析：CS.D.GBPUSD.MINI.IP | 极性：0.00 | 决策：HOLD
+2025-04-18 00:12:51,216 - INFO - 🧠 GPT 判斷 | CS.D.GBPUSD.MINI.IP 決策：HOLD
+2025-04-18 00:12:51,218 - INFO - 📉 MACD计算：0.01 | RSI计算：63.29
+2025-04-18 00:12:51,218 - INFO -   📊 [CS.D.GBPUSD.MINI.IP] 策略回傳結果(模擬): {'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.9}, 'RSI_MACD': {'direction': 'BUY', 'confidence': 0.9}, 'SMA_CROSS': {'direction': 'BUY', 'confidence': 0.9}}
+2025-04-18 00:12:51,219 - INFO -   ⛔ [CS.D.GBPUSD.MINI.IP] 綜合決策為 HOLD，不進行交易
+2025-04-18 00:12:51,219 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-18 00:12:51,219 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:22:50 HKT)" executed successfully
+2025-04-18 00:13:06,546 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-18 00:13:06,880 - INFO - ✅ IG 登入成功
+2025-04-18 00:13:06,880 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-18 00:13:06,889 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 00:13:06,889 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-18 00:13:06,889 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-18 00:13:06,890 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-18 00:13:06,890 - INFO - Scheduler started
+2025-04-18 00:13:06,890 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:23:06 HKT)" (scheduled at 2025-04-18 00:13:06.889307+08:00)
+2025-04-18 00:13:06,891 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-18 00:13:06,891 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 1 個產品。
+2025-04-18 00:13:06,891 - INFO -   ➡️ 開始處理商品: CS.D.GBPUSD.MINI.IP
+2025-04-18 00:13:06,891 - INFO -   📦 [CS.D.GBPUSD.MINI.IP] 獲取價格數據...
+2025-04-18 00:13:06,891 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:13:07,181 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:13:07,181 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:13:07,470 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:13:07,470 - INFO - [DEBUG] 價格筆數：20
+2025-04-18 00:13:07,495 - INFO - 📊 情绪分析：CS.D.GBPUSD.MINI.IP | 极性：0.00 | 决策：HOLD
+2025-04-18 00:13:07,495 - INFO - 🧠 GPT 判斷 | CS.D.GBPUSD.MINI.IP 決策：HOLD
+2025-04-18 00:13:07,498 - INFO - 📉 MACD计算：0.01 | RSI计算：63.30
+2025-04-18 00:13:07,499 - INFO -   📊 [CS.D.GBPUSD.MINI.IP] 策略回傳結果(模擬): {'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.9}, 'RSI_MACD': {'direction': 'BUY', 'confidence': 0.9}, 'SMA_CROSS': {'direction': 'BUY', 'confidence': 0.9}}
+2025-04-18 00:13:07,499 - INFO -   ⛔ [CS.D.GBPUSD.MINI.IP] 綜合決策為 HOLD，不進行交易
+2025-04-18 00:13:07,499 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-18 00:13:07,499 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:23:06 HKT)" executed successfully
+2025-04-18 00:20:29,574 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:30:29 HKT)" (scheduled at 2025-04-18 00:20:29.574327+08:00)
+2025-04-18 00:20:29,575 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-18 00:20:29,575 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 1 個產品。
+2025-04-18 00:20:29,575 - INFO -   ➡️ 開始處理商品: CS.D.GBPUSD.MINI.IP
+2025-04-18 00:20:29,575 - INFO -   📦 [CS.D.GBPUSD.MINI.IP] 獲取價格數據...
+2025-04-18 00:20:29,575 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:20:30,020 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:20:30,020 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:20:30,296 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:20:30,296 - INFO - [DEBUG] 價格筆數：20
+2025-04-18 00:20:30,296 - INFO - 📊 情绪分析：CS.D.GBPUSD.MINI.IP | 极性：0.00 | 决策：HOLD
+2025-04-18 00:20:30,296 - INFO - 🧠 GPT 判斷 | CS.D.GBPUSD.MINI.IP 決策：HOLD
+2025-04-18 00:20:30,298 - INFO - 📉 MACD计算：0.01 | RSI计算：63.45
+2025-04-18 00:20:30,299 - INFO -   📊 [CS.D.GBPUSD.MINI.IP] 策略回傳結果(模擬): {'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.9}, 'RSI_MACD': {'direction': 'BUY', 'confidence': 0.9}, 'SMA_CROSS': {'direction': 'BUY', 'confidence': 0.9}}
+2025-04-18 00:20:30,299 - INFO -   ⛔ [CS.D.GBPUSD.MINI.IP] 綜合決策為 HOLD，不進行交易
+2025-04-18 00:20:30,300 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-18 00:20:30,300 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:30:29 HKT)" executed successfully
+2025-04-18 00:23:06,889 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:33:06 HKT)" (scheduled at 2025-04-18 00:23:06.889307+08:00)
+2025-04-18 00:23:06,890 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-18 00:23:06,890 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 1 個產品。
+2025-04-18 00:23:06,890 - INFO -   ➡️ 開始處理商品: CS.D.GBPUSD.MINI.IP
+2025-04-18 00:23:06,890 - INFO -   📦 [CS.D.GBPUSD.MINI.IP] 獲取價格數據...
+2025-04-18 00:23:06,890 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:23:07,232 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:23:07,233 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:23:07,505 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:23:07,505 - INFO - [DEBUG] 價格筆數：20
+2025-04-18 00:23:07,506 - INFO - 📊 情绪分析：CS.D.GBPUSD.MINI.IP | 极性：0.00 | 决策：HOLD
+2025-04-18 00:23:07,506 - INFO - 🧠 GPT 判斷 | CS.D.GBPUSD.MINI.IP 決策：HOLD
+2025-04-18 00:23:07,508 - INFO - 📉 MACD计算：0.01 | RSI计算：63.41
+2025-04-18 00:23:07,508 - INFO -   📊 [CS.D.GBPUSD.MINI.IP] 策略回傳結果(模擬): {'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.9}, 'RSI_MACD': {'direction': 'BUY', 'confidence': 0.9}, 'SMA_CROSS': {'direction': 'BUY', 'confidence': 0.9}}
+2025-04-18 00:23:07,508 - INFO -   ⛔ [CS.D.GBPUSD.MINI.IP] 綜合決策為 HOLD，不進行交易
+2025-04-18 00:23:07,509 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-18 00:23:07,509 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:33:06 HKT)" executed successfully
+2025-04-18 00:40:29,399 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-18 00:40:29,739 - INFO - ✅ IG 登入成功
+2025-04-18 00:40:29,740 - INFO - ✅ IG 首次登錄成功，準備啟動排程器。
+2025-04-18 00:40:29,748 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-04-18 00:40:29,748 - INFO - 🕒 排程器已設定，交易循環將每 10 分鐘運行一次。
+2025-04-18 00:40:29,748 - INFO - ▶️ 排程器啟動，系統進入持續運行模式...
+2025-04-18 00:40:29,749 - INFO - Added job "Run Trading Logic Cycle" to job store "default"
+2025-04-18 00:40:29,749 - INFO - Scheduler started
+2025-04-18 00:40:29,749 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:50:29 HKT)" (scheduled at 2025-04-18 00:40:29.748435+08:00)
+2025-04-18 00:40:29,750 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-18 00:40:29,750 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 1 個產品。
+2025-04-18 00:40:29,750 - INFO -   ➡️ 開始處理商品: CS.D.GBPUSD.MINI.IP
+2025-04-18 00:40:29,750 - INFO -   📦 [CS.D.GBPUSD.MINI.IP] 獲取價格數據...
+2025-04-18 00:40:29,750 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:40:30,158 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:40:30,158 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:40:30,458 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:40:30,458 - INFO - [DEBUG] 價格筆數：20
+2025-04-18 00:40:30,482 - INFO - 📊 情绪分析：CS.D.GBPUSD.MINI.IP | 极性：0.00 | 决策：HOLD
+2025-04-18 00:40:30,483 - INFO - 🧠 GPT 判斷 | CS.D.GBPUSD.MINI.IP 決策：HOLD
+2025-04-18 00:40:30,486 - INFO - 📉 MACD计算：0.01 | RSI计算：63.29
+2025-04-18 00:40:30,486 - INFO -   📊 [CS.D.GBPUSD.MINI.IP] 策略回傳結果(模擬): {'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.9}, 'RSI_MACD': {'direction': 'BUY', 'confidence': 0.9}, 'SMA_CROSS': {'direction': 'BUY', 'confidence': 0.9}}
+2025-04-18 00:40:30,486 - INFO -   ⛔ [CS.D.GBPUSD.MINI.IP] 綜合決策為 HOLD，不進行交易
+2025-04-18 00:40:30,487 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-18 00:40:30,487 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 00:50:29 HKT)" executed successfully
+2025-04-18 00:50:29,748 - INFO - Running job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 01:00:29 HKT)" (scheduled at 2025-04-18 00:50:29.748435+08:00)
+2025-04-18 00:50:29,749 - INFO - ========== 執行新一輪交易檢查 ==========
+2025-04-18 00:50:29,749 - INFO - 成功從 /home/hmtf000001/trading_bot/configs/epic_list.json 加載 1 個產品。
+2025-04-18 00:50:29,749 - INFO -   ➡️ 開始處理商品: CS.D.GBPUSD.MINI.IP
+2025-04-18 00:50:29,749 - INFO -   📦 [CS.D.GBPUSD.MINI.IP] 獲取價格數據...
+2025-04-18 00:50:29,749 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:50:30,170 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:50:30,170 - INFO - 嘗試為 CS.D.GBPUSD.MINI.IP 獲取 20 點 DAY 週期價格數據 (使用 V3 API Query Params)...
+2025-04-18 00:50:30,451 - INFO - ✅ 成功為 CS.D.GBPUSD.MINI.IP 獲取並解析了 20 個 V3 價格點。
+2025-04-18 00:50:30,451 - INFO - [DEBUG] 價格筆數：20
+2025-04-18 00:50:30,452 - INFO - 📊 情绪分析：CS.D.GBPUSD.MINI.IP | 极性：0.00 | 决策：HOLD
+2025-04-18 00:50:30,452 - INFO - 🧠 GPT 判斷 | CS.D.GBPUSD.MINI.IP 決策：HOLD
+2025-04-18 00:50:30,454 - INFO - 📉 MACD计算：0.01 | RSI计算：63.65
+2025-04-18 00:50:30,454 - INFO -   📊 [CS.D.GBPUSD.MINI.IP] 策略回傳結果(模擬): {'GPT_SIGNAL': {'direction': 'BUY', 'confidence': 0.9}, 'RSI_MACD': {'direction': 'BUY', 'confidence': 0.9}, 'SMA_CROSS': {'direction': 'BUY', 'confidence': 0.9}}
+2025-04-18 00:50:30,455 - INFO -   ⛔ [CS.D.GBPUSD.MINI.IP] 綜合決策為 HOLD，不進行交易
+2025-04-18 00:50:30,455 - INFO - ========== 本輪交易檢查結束 ==========
+2025-04-18 00:50:30,455 - INFO - Job "Run Trading Logic Cycle (trigger: interval[0:10:00], next run at: 2025-04-18 01:00:29 HKT)" executed successfully
+2025-04-18 01:15:54,869 - INFO - 🚀 系統啟動 (APScheduler 多輪制)
+2025-04-18 01:15:55,161 - ERROR - ❌ IG 登錄失敗，狀態碼：401, 響應：{"errorCode":"error.security.client-suspended"}
+2025-04-18 01:15:55,161 - CRITICAL - ❌ IG 首次登錄失敗，系統無法啟動。請檢查憑證或網絡。

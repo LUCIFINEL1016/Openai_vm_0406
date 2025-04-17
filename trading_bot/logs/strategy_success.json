@@ -1,1 +1,127 @@
-{}
+{
+  "2025-04-17": {
+    "CS.D.GOLD.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.SILVER.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.BRENT.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.NATGAS.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.COPPER.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.SOYBEAN.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.COFFEE.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.COCOA.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.COTTON.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    },
+    "CS.D.SUGAR.CASH.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 0,
+      "NO_DATA": 14,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 2,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    }
+  },
+  "2025-04-18": {
+    "CS.D.GBPUSD.MINI.IP": {
+      "SUCCESS": 0,
+      "FAIL": 0,
+      "SKIP_HOLD": 8,
+      "NO_DATA": 0,
+      "EXCEPTION_ORDER": 0,
+      "EXCEPTION_ATTR": 0,
+      "EXCEPTION_EPIC": 0,
+      "EXCEPTION_RISK": 0,
+      "UNKNOWN": 0
+    }
+  }
+}
